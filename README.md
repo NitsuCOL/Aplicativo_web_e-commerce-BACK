@@ -23,12 +23,12 @@ El proyecto ha sido creado por un equipo de cuatro estudiantes como parte del **
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
+   git clone https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK.git
 
 2. Accede a la carpeta del proyecto:
 cd tu-repo
 
-3. Abre el archivo index.html en tu navegador para ejecutar la app  localmente:
+3. Abre el archivo index.html en tu navegador para ejecutar la app localmente:
 💡 Este proyecto no requiere backend por ahora, ya que está centrado en el desarrollo frontend con tecnologías básicas.
 
 ## 💻 Uso
