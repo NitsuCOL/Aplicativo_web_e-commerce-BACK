@@ -98,6 +98,7 @@ main{
 .login-container h1{
     font-family: "Asul", serif;
     font-size: 30px;
+    font-weight: 500;
 }
 
 .input_container{
