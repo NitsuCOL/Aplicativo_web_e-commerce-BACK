@@ -88,16 +88,16 @@ main{
 
 .category{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 10px;
     width: 100%;
     height: 100vh;
     position: relative;
-    cursor: pointer;
 }
 
 .hero-section img{
     width: 100%;
+    height: 100%;
 }
 
 .titulos-category{
@@ -117,4 +117,129 @@ main{
     backdrop-filter: blur(2px);
     border-radius: 50px;
     z-index: 10;
+}
+
+/*ESTILOS DEL FOOTER*/
+footer{
+    background-color: #0c121e;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Assistant", serif;
+}
+
+.footer-container{
+    background-color: #0c121e;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer-container-1{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container-1 form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container-1 form input{
+    background-color: #0C121E;
+    width: 80%;
+    font-family: "Assistant", serif;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.footer-container-1 form input::placeholder{
+    color: #cecdcd34;
+}
+
+.footer-container-1 form input:focus{
+    outline: none;
+}
+
+.footer-container-1 button{
+    background-color: #fff;
+    width: 20%;
+    font-size: 14px;
+    font-family: "Asul", serif;
+    border: none;
+}
+
+.icons-social-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.icons-social-footer a{
+    color: #fff;
+}
+
+.footer-container p{
+    font-size: 14px;
+}
+
+.footer-container p a{
+    color: #fff;
+}
+
+.infoAdicional-footer-container{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.infoAdicional-footer-container ul{
+    list-style: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.infoAdicional-footer-container a{
+    width: 12.9%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.infoAdicional-footer-container a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.footer-container-2{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.formasPago-footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.formasPago-footer-container img{
+    width: 30px;
 }
