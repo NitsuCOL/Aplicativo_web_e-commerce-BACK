@@ -19,6 +19,13 @@ El proyecto ha sido creado por un equipo de cuatro estudiantes como parte del **
 - **CSS** – Estilos personalizados y diseño responsive
 - **JavaScript** – Funcionalidad del frontend (interactividad, filtros, carrito, etc.)
 
+## 🎨 Diseño UI/UX
+
+El diseño de la interfaz de este e-commerce fue creado previamente en Figma, con el objetivo de definir una experiencia de usuario clara, moderna y coherente con la temática urbana de la marca BACK.
+
+Puedes visualizar el prototipo aquí:
+🔗 [Ver diseño en Figma](https://www.figma.com/design/oXNTpF6y8gj2NQaTQhqJHG/Web-Ecommerce?t=UO8CuDICAKcaMgHU-1)
+
 ## 🚀 Instalación
 
 1. Clona este repositorio:
@@ -43,7 +50,9 @@ Una vez abierto el sitio en el navegador, podrás:
 
 ## 🧑‍💻 Contribuciones
 
-Aqui van las personas que contribuyeron en el proyecto
+Este proyecto fue desarrollado por el equipo de **Stiven Chico, Cristian Orellano, Miriam Vasquez y Aaron Wilches** como parte del **Bootcamp de Programación Básica** de **Talento Tech Caribe**.
+
+Las contribuciones se enfocaron en la creación de la interfaz de usuario, funcionalidades del carrito de compras, autenticación de usuarios y diseño responsivo. 
 
 ## 📄 Licencia
 
@@ -51,5 +60,9 @@ Este proyecto está bajo la licencia MIT. Revisa el archivo LICENSE para más de
 
 # 👨‍🎨 Créditos
 
-Desarrollado por un equipo de estudiantes del **Bootcamp de Programación Básica – Talento Tech Caribe**.
+- Aaron Wilches: [GitHub](https://github.com/NitsuCOL)
+- Stiven Chico: [GitHub](https://github.com/Cristian07-04)
+- Cristian Orellano: [GitHub](https://github.com/Cristian07-04)
+- Miriam Vasquez: [GitHub](https://github.com/mcvasquezsar)
+
 🧑‍🎓 **Nota:** La marca BACK es completamente inventada y forma parte del concepto académico del proyecto.
