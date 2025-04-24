@@ -1,0 +1,148 @@
+/*FUENTES A USAR*/
+/* font-family: "Assistant", sans-serif; */
+/* font-family: "Asul", serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILOS DE LA BARRA DE NAVEGACION*/
+
+nav{
+    width: 100%;
+    height: 90px;
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.2);
+    font-family: "Assistant", sans-serif;
+}
+
+.navbar-container{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.category-navbar-container{
+    margin-left: -140px;
+}
+
+.category-navbar-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.category-navbar-container a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.category-navbar-container a:hover{
+    border-bottom: 1.5px solid #000000;
+}
+
+.logo-navbar-container{
+    margin-left: -60px;
+    cursor: pointer;
+}
+
+.icons-navbar-container{
+    margin-right: -90px;
+}
+
+.icons-navbar-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.icons-navbar-container a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.icons-navbar-container i:hover{
+    background-color: #cecdcd34;
+}
+
+/*ESTILOS DEL FORMULARIO DE REGISTRO*/
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+.login-container{
+    width: 100%;
+    height: 100vh;
+}
+
+.login-container form{
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.login-container h1{
+    font-family: "Asul", serif;
+    font-size: 30px;
+}
+
+.input_container{
+    width: 40%;
+    height: 8%;
+    font-family: "Assistant", serif;
+    text-align: start;
+}
+
+.input{
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    padding: 0 10px;
+    border: 1px solid #D5D4D4;
+}
+
+.login-container input::placeholder{
+    color: #D5D4D4;
+}
+
+.login-container input:focus{
+    outline: none;
+}
+
+.login-container button{
+    width: 40%;
+    height: 8%;
+    background-color: #0C121E;
+    color: #fff;
+    font-family: "Asul", serif;
+    border: none;
+}
+
+/*CLASE QUE MUESTRA LOS LABElS DE ERROR CUANDO FALTAN INPUT POR RELLENAR
+ESTA CLASE SE DEBE DE AGREGAR CUANDO EL USUARIO TENGA ALGUN ERROR CON LOS INPUTS*/
+.hiden{
+    display: none;
+    color: #F36161;
+    padding-left: 1px;
+    font-size: 14px;
+}
+
+/*CLASE QUE CAMBIA EL COLOR DEL BORDE DEL INPUT CUANDO HAY ERROR
+ESTA CLASE SE DEBE DE AGREGAR CUANDO EL USUARIO TENGA ALGUN ERROR CON LOS INPUTS*/
+.error{
+    border: 1px solid #F36161;
+}
