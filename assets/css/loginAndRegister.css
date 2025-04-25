@@ -258,17 +258,28 @@ footer{
     width: 30px;
 }
 
-/*CLASE QUE MUESTRA LOS LABElS DE ERROR CUANDO FALTAN INPUT POR RELLENAR
-ESTA CLASE SE DEBE DE AGREGAR CUANDO EL USUARIO TENGA ALGUN ERROR CON LOS INPUTS*/
-.hiden{
-    display: none;
-    color: #F36161;
-    padding-left: 1px;
-    font-size: 14px;
+#mensaje {
+    font-family: 'Assistant', sans-serif;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+    transition: all 0.3s ease;
 }
 
-/*CLASE QUE CAMBIA EL COLOR DEL BORDE DEL INPUT CUANDO HAY ERROR
-ESTA CLASE SE DEBE DE AGREGAR CUANDO EL USUARIO TENGA ALGUN ERROR CON LOS INPUTS*/
-.error{
-    border: 1px solid #F36161;
+#mensaje span[style*="green"] {
+    color: #28a745;
+    display: block;
+    padding: 8px;
+    background-color: rgba(40, 167, 69, 0.1);
+    border-radius: 4px;
+}
+
+#mensaje span[style*="red"] {
+    color: #dc3545;
+    display: block;
+    padding: 8px;
+    background-color: rgba(220, 53, 69,.1);
+    border-radius: 4px;
 }

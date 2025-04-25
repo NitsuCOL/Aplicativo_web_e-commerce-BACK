@@ -21,34 +21,6 @@
     <!------------------------->
     <!--Archivo de estilos-->
     <link rel="stylesheet" href="/assets/css/loginAndRegister.css">
-    <!-- Estilos adicionales para mensajes de login -->
-    <style>
-        #mensaje {
-            font-family: 'Assistant', sans-serif;
-            margin-top: 15px;
-            padding: 10px;
-            border-radius: 4px;
-            text-align: center;
-            font-weight: 600;
-            transition: all 0.3s ease;
-        }
-        
-        #mensaje span[style*="green"] {
-            color: #28a745;
-            display: block;
-            padding: 8px;
-            background-color: rgba(40, 167, 69, 0.1);
-            border-radius: 4px;
-        }
-        
-        #mensaje span[style*="red"] {
-            color: #dc3545;
-            display: block;
-            padding: 8px;
-            background-color: rgba(220, 53, 69,.1);
-            border-radius: 4px;
-        }
-    </style>
     <!---------------------------->
     <title>BACK - Inicio de Sesión</title>
 </head>
@@ -78,11 +50,9 @@
                 <h1>INICIAR SESION / REGISTRARSE</h1>
                 <div class="input-correo-container input_container">
                     <input class="input" type="email" id="email" title="input_correo" placeholder="Correo electronico" required>
-                    <label class="hiden" for="input_correo">Porfavor ingresa tu correo electronico</label>
                 </div>
                 <div class="input-pass-container input_container">
                     <input class="input" type="password" id="password" title="input_pass" placeholder="Contraseña" required>
-                    <label class="hiden" for="input_pass">Porfavor ingresa tu contraseña</label>
                 </div>
                 <button type="submit">CONTINUAR</button>
                 <div id="mensaje" class="mt-3 text-center"></div>
