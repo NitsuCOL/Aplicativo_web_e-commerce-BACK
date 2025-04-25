@@ -1,0 +1,54 @@
+{
+    "usuarios": [
+      {
+        "nombre": "Carlos Mendoza",
+        "email": "carmendoza@gmail.com",
+        "password": "CMendoza1"
+      },
+      {
+        "nombre": "Ana Torres",
+        "email": "anitaT@outlook.com",
+        "password": "AnaTorres04"
+      },
+      {
+        "nombre": "Luis Ramírez",
+        "email": "rami.luis@yahoo.es",
+        "password": "*LRamirez#"
+      },
+      {
+        "nombre": "Elena Gutiérrez",
+        "email": "ele_gu@mail.com",
+        "password": "Gu&Ele"
+      },
+      {
+        "nombre": "María Rodríguez",
+        "email": "maria.rodriguez@gmail.com",
+        "password": "MaRo2025$"
+      },
+      {
+        "nombre": "Juan Hernández",
+        "email": "juan.H@outlook.com",
+        "password": "JuanCode24"
+      },
+      {
+        "nombre": "Ana López",
+        "email": "AnLo@yahoo.es",
+        "password": "Lopez&Ana3"
+      },
+      {
+        "nombre": "Carlos Sánchez",
+        "email": "carlos_sanchez@mail.com",
+        "password": "CarlitosS!"
+      },
+      {
+        "nombre": "Patricia Martínez",
+        "email": "pati.martinez@gmail.com",
+        "password": "PatM2025*"
+      },
+      {
+        "nombre": "Miguel Fernández",
+        "email": "miguel1998@outlook.com",
+        "password": "Miguel1218"
+      }
+    ]
+  }

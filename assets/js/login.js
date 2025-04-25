@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const password = document.getElementById('password').value;
         
         // Cargar el archivo JSON con las credenciales
-        fetch('/assets/js/usuarios.json')
+        fetch('/assets/jsons/usuarios.json')
             .then(response => {
                 // Verificar si la respuesta es correcta
                 if (!response.ok) {
