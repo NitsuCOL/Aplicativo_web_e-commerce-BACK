@@ -51,7 +51,7 @@
 
     <main>
     <!--CONTENEDOR DE LOS ELEMENTOS CUANDO EL CARRITO ESTE VACIO-->
-        <div class="carVoid-container">
+        <div class="carVoid-container hiden">
             <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="#CCCED6" class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
                 <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
             </svg>
@@ -62,7 +62,7 @@
     <!------------------------------------------------------------------------>
 
     <!--CONTENEDOR DE LOS ELEMENTOS CUANDO EL CARRITO TENGA PRODUCTOS-->
-        <div class="car-container hiden">
+        <div class="car-container">
             <!--CONTENEDOR DE LOS PRODUCTOS-->
             <div class="products-car-container">
                 <!--AQUI IRIAN LAS CARTAS LARGAS DE LOS PRODUCTOS-->
@@ -84,7 +84,7 @@
                         <h3>Total:</h3>
                         <p>$$$</p>
                     </div>
-                    <a href="#">PAGO SEGURO</a><!--ABRE UN MODAL PARA PAGAR-->
+                    <a href="#" id="pago-confirmado">PAGO SEGURO</a><!--ABRE UN MODAL PARA PAGAR-->
                     <h3>Aceptamos</h3>
                     <div class="pago-info-car-container">
                         <div class="bg-container">
@@ -102,6 +102,36 @@
             <!---------------------------------------------------------------->
         </div>
     <!--------------------------------------------------------------------------->
+
+    <!--CONTENEDOR DEL MODAL PARA SELECCIONAR EL METODO DE PAGO-->
+    <div class="general-modal-container hiden">
+        <div class="modal-container">
+            <h2>Método de pago</h2>
+            <div class="metodos-pago-container">
+                <div class="container-metodo">
+                    <input type="radio" title="paypal-radio" id="paypal-pago" name="pago">
+                    <span class="radio-button" id="span-1"></span>
+                    <label for="paypal-pago">
+                        <img src="/assets/img/SVG_MetodosPago/paypal-color-svgrepo-com.svg" alt="Logo de paypal">
+                    </label>
+                    <p>Pago express de PayPal</p>
+                </div>
+                <div class="container-metodo">
+                    <input type="radio" title="credit-radio" id="credit-pago" name="pago">
+                    <span class="radio-button" id="span-2"></span>
+                    <label for="credit-pago">
+                        <img src="/assets/img/SVG_MetodosPago/visa-svgrepo-com.svg" alt="Logo de Visa">
+                    </label>
+                    <label for="credit-pago">
+                        <img src="/assets/img/SVG_MetodosPago/mastercard-svgrepo-com.svg" alt="Logo de Mastercard">
+                    </label>
+                    <p>Tarjeta de crédito</p>
+                </div>
+            </div>
+            <button id="btnPedidoRealizado" class="pedido-realizado" type="submit" title="realizar-pedido">REALIZAR PEDIDO</button>
+        </div>
+    </div>
+    <!----------------------------------------------------------->
     </main>
 
     <footer>
@@ -155,6 +185,9 @@
     <!--ARCHIVO SCRIPT DEL INDEX-->
     <script src="assets/js/index.js"></script>
     <!-------------------->
+    <!--ARCHIVO SCRIPT DE LA SECCION DEL CARRO DE COMPRAS-->
+    <script src="/assets/js/car.js"></script>
+    <!----------------------------------------------------->
 </body>
 
 </html>

@@ -52,6 +52,7 @@ main{
     background-color: #fff;
     width: 80%;
     height: 90%;
+    overflow-y: auto;
 }
 
 .info-products-car-container{
@@ -139,8 +140,140 @@ main{
     padding: 5px 10px;
 }
 
-/*CLASE QUE OCULTA EL CONTENEDOR*/
+/*ESTILOS DEL MODAL PARA SELECCIONAR EL METODO DE PAGO*/
+.general-modal-container {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 100vh;
+    font-family: "Assistant", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
 
+/*ESTA CLASE EVITA QUE SE HAGA SCROLL CUANDO SE MUESTRE EL MODAL*/
+.no-scroll {
+    overflow: hidden;
+}
+
+.modal-container{
+    background-color: #fff;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #CCCED6;
+    border-radius: 20px;
+}
+
+.modal-container h2{
+    font-weight: bold;
+}
+
+.modal-container button{
+    background-color: #0C121E;
+    color: #fff;
+    width: 60%;
+    height: 20%;
+    font-weight: bold;
+}
+
+.metodos-pago-container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+}
+
+.container-metodo{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10%;
+}
+
+.container-metodo label{
+    /* background-color: red; */
+    width: 70px;
+    padding: 1% 0;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CCCED6;
+    border-radius: 10px;
+}
+
+.container-metodo p{
+    font-size: 16px;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+.container-metodo img{
+    width: 30px;
+}
+
+.container-metodo input{
+    display: none;
+}
+
+.radio-button{
+    width: 8%;
+    height: 70%;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #CCCED6;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.radio-button::after{
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background-color: #1775E0;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.radio-button.active::after {
+    opacity: 1;
+}
+
+
+/* .card-pago-container{
+    display: flex;
+
+}
+
+.card-pago-container img{
+    width: 50px;
+} */
+
+
+/*CLASE QUE OCULTA EL CONTENEDOR*/
 .hiden{
     display: none;
 }
