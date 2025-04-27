@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,13 +17,15 @@
     <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon">
     <!---------------------->
     <!--CDN DE BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!------------------------->
     <!--Archivo de estilos-->
-    <link rel="stylesheet" href="../assets/css/loginAndRegister.css">
+    <link rel="stylesheet" href="../assets/css/category.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
     <!---------------------------->
-    <title>BACK - Inicio de Sesión</title>
+    <title>BACK</title>
 </head>
 <body>
     <nav class="navbar">
@@ -34,7 +37,8 @@
                     <li><a href="../views/category.html">Niños</a></li>
                 </ul>
             </div>
-            <div class="logo-navbar-container"><a href="../index.html"><img src="../assets/img/logo_new.webp" alt="Logo de la marca de ropa BACK"></a></div>
+            <div class="logo-navbar-container"><a href="../index.html"><img src="../assets/img/logo_new.webp"
+                        alt="Logo de la marca de ropa BACK"></a></div>
             <div class="icons-navbar-container">
                 <ul>
                     <li><a href="../views/loginAndRegister.html"><i class="bi bi-person-fill fs-4"></i></a></li>
@@ -45,18 +49,61 @@
     </nav>
 
     <main>
-        <div class="login-container">
-            <form id="loginForm">
-                <h1>INICIAR SESION / REGISTRARSE</h1>
-                <div class="input-correo-container input_container">
-                    <input class="input" type="email" id="email" title="input_correo" placeholder="Correo electronico" required>
+        <!--CONTENDEOR DE LA BUSQUEDA POR FILTROS-->
+        <div class="filter-container hide">
+            <div class="filter-encabezado">
+                <h2>Filtrar</h2>
+                <p id="limpiar-category">Limpiar todo</p>
+            </div>
+            <div class="tipo-product-container">
+                <h3>Categoría</h3>
+                <div class="camisas">
+                    <input type="radio" title="radio_" id="camisas" name="prenda">
+                    <label for="camisas">
+                        <p>
+                            Camisas
+                        </p>
+                    </label>
                 </div>
-                <div class="input-pass-container input_container">
-                    <input class="input" type="password" id="password" title="input_pass" placeholder="Contraseña" required>
+                <div class="camisetas">
+                    <input type="radio" title="radio_" id="camisetas" name="prenda">
+                    <label for="camisetas">
+                        <p>
+                            Camisetas
+                        </p>
+                    </label>
                 </div>
-                <button type="submit">CONTINUAR</button>
-                <div id="mensaje" class="mt-3 text-center"></div>
-            </form>
+                <div class="jeans">
+                    <input type="radio" title="radio_" id="jeans" name="prenda">
+                    <label for="jeans">
+                        <p>
+                            Jeans
+                        </p>
+                    </label>
+                </div>
+                <div class="camisetas">
+                    <input type="radio" title="radio_" id="pantalones" name="prenda">
+                    <label for="pantalones">
+                        <p>
+                            Pantalones
+                        </p>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <!--CONTENDEOR QUE VA A MOSTRAR LAS CARTAS DE LOS PRODUCTOS-->
+        <div class="category-container">
+            <div class="filter-option-container">
+                <p id="filtro">
+                    Filtrar
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                    </svg>
+                </p>
+            </div>
+
+            <!--AQUI IRIAN LAS CARTAS-->
         </div>
     </main>
 
@@ -72,7 +119,9 @@
                     <a href="#" title="icon_tiktok"><i class="bi bi-tiktok fs-5"></i></a>
                 </div>
             </div>
-            <p>Al hacer clic en "Suscribirse", consiente recibir correos electrónicos de marketing. El consentimiento no es una condición de ninguna compra. Vea nuestra <a href="#">Política de privacidad</a> y <a href="#">cookies</a> y <a href="#">Términos de uso</a>.</p>
+            <p>Al hacer clic en "Suscribirse", consiente recibir correos electrónicos de marketing. El consentimiento no
+                es una condición de ninguna compra. Vea nuestra <a href="#">Política de privacidad</a> y <a
+                    href="#">cookies</a> y <a href="#">Términos de uso</a>.</p>
             <div class="infoAdicional-footer-container">
                 <ul>
                     <li>
@@ -106,9 +155,9 @@
         </div>
     </footer>
 
-    <!--ARCHIVO SCRIPT DEL INDEX-->
-    <script src="../assets/js/index.js"></script>
-    <!--ARCHIVO SCRIPT DEL LOGIN-->
-    <script src="../assets/js/login.js"></script>
+    <!--ARCHIVO SCRIPT DE LA SECCION DE CATEGORIAS-->
+    <script src="../assets/js/category.js"></script>
+    <!----------------------------------------------------->
 </body>
+
 </html>
