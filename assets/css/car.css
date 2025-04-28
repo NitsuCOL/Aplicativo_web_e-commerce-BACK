@@ -262,16 +262,88 @@ main{
     opacity: 1;
 }
 
-
-/* .card-pago-container{
+/*ESTILOS DE LAS CARTAS DENTRO DEL CARRITO*/
+.card-car{
+    width: 100%;
+    height: 30%;
+    padding: 0 0 0 2%;
+    margin: 0 0 1% 0;
     display: flex;
-
+    justify-content: space-around;
 }
 
-.card-pago-container img{
-    width: 50px;
-} */
+.img-small-container{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.img-small-container img{
+    width: 100%;
+    max-height: 100%;
+}
+
+.card-car-info-container{
+    width: 90%;
+    height: 100%;
+}
+
+.card-title-container{
+    width: 100%;
+    height: 50%;
+    padding: 2% 0 0 2%;
+}
+
+.options-card-container{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+
+.options-card-container svg{
+    cursor: pointer;
+}
+
+.other-info-card-container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 8% 0 2%;
+}
+
+.selector-products{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    width: 120px;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin: 0 0 1% 0;
+}
+
+.selector-products button{
+    background: none;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.selector-products button:hover{
+    background-color: #CCCED6;
+}
+
+.selector-products span{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 10%;
+}
 
 /*CLASE QUE OCULTA EL CONTENEDOR*/
 .hiden{

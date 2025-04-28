@@ -37,3 +37,42 @@ btnPedidoRealizado.addEventListener('click', () => {
     }
 });
 //--------------------------------
+
+//METODO PARA AUMENTAR LA CANTIDAD DE LOS PRODUCTOS MEDIANTE EL SELECTOR
+const decreaseBtn = document.getElementById('decrease');
+const increaseBtn = document.getElementById('increase');
+const quantitySpan = document.getElementById('quantity');
+
+let quantity = 1;
+
+decreaseBtn.addEventListener('click', () => {
+    if (quantity > 1) {
+        quantity--;
+        quantitySpan.textContent = quantity;
+    }
+});
+
+increaseBtn.addEventListener('click', () => {
+    quantity++;
+    quantitySpan.textContent = quantity;
+});
+
+//---------------------------------------------------------------------
+
+//FUNCION DEL BOTON DEL BASURERO DE LOS PRODUCTOS
+// Selecciona el contenedor que siempre EXISTE
+const productsContainer = document.querySelector('.products-car-container');
+
+// Delegamos el evento click
+productsContainer.addEventListener('click', function(e) {
+    // Verificamos si el click fue en el ícono de basura o dentro de él
+    if (e.target.closest('.trash-icon')) {
+        // Subimos hasta encontrar la tarjeta completa
+        const cardCar = e.target.closest('.card-car');
+
+        if (cardCar) {
+            cardCar.remove(); // Elimina el producto
+        }
+    }
+});
+//_------------------------------------------
