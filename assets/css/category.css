@@ -9,6 +9,10 @@ main{
     /* background-color: red; */
     width: 100%;/*CAMBIAR VALOR A 100%*/
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .filter-option-container{
@@ -74,7 +78,85 @@ main{
     font-size: 1.5em;
 }
 
+.products-container {
+    width: 95%;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem; /* espacio entre cartas */
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.img-front,
+.img-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+}
+
+.img-back {
+    opacity: 0;
+}
+
+.img-container:hover .img-back {
+    opacity: 1;
+}
+
+.img-container:hover .img-front {
+    opacity: 0;
+}
+
+.info-products-card {
+    padding: 1rem;
+}
+
+.info-products-card h4 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+
+.info-products-card p {
+    font-size: 14px;
+    color: #555;
+}
+
 /*CLASE QUE OCULTA ELEMENTOS*/
 .hide{
     display: none;
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
