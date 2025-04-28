@@ -34,4 +34,3 @@ const InitProducts=()=>{
     cat=localStorage.getItem("Categoria")
 
 }
-
