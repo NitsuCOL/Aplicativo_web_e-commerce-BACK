@@ -1,0 +1,284 @@
+{
+    "niños": [
+        {
+            "foto": "",
+            "nombre": "Jogger regular fit tiro medio naranja",
+            "categoria": "Jeans",
+            "descripcion": "Pantalón tipo Jogger con bota ancha. Elástico en contorno cintura cordón funcional en contorno cintura bolsillos tipo ribete en costado. Tejido de punto. Para niña.",
+            "precio": 80000
+        },
+        {
+            "foto": "",
+            "nombre": "Jean regular fit tiro alto indigo oscuro",
+            "categoria": "Jeans",
+            "descripcion": "Jean tiro alto. Silueta straight. 5 Bolsillos detalles de cortes en pierna elástico ajustable en la parte interna de la cintura y cierre de cremallera con botón",
+            "precio": 99900
+        },
+        {
+            "foto": "",
+            "nombre": "Jean Lijoy slim fit tiro medio indigo claro",
+            "categoria": "Jeans",
+            "descripcion": "Pantalón. Silueta Skinny (Ajustado) tiro medio 5 bolsillos elástico ajustable en la pretina interna y cierre de cremallera con botón. Para niña. Tejido plano (índigo) algodón con elastano.",
+            "precio": 102000
+        },
+        {
+            "foto": "",
+            "nombre": "Jean Lufas mom fit fit tiro medio indigo",
+            "categoria": "Jeans",
+            "descripcion": "Jean. Pierna amplia bota amplia con 2 bolsillos traseros elástico ajustable en la parte interna de la cintura y cierre de cremallera con botón. Para niña. Tejido plano (índigo).",
+            "precio": 99000
+        },
+        {
+            "foto": "",
+            "nombre": "Jean regular fit tiro alto indigo medio",
+            "categoria": "Jeans",
+            "descripcion": "Jean tiro alto. Silueta straight. 5 Bolsillos detalles de cortes en pierna elástico ajustable en la parte interna de la cintura y cierre de cremallera con botón. Para niña. Tejido plano (Denim).",
+            "precio": 129000
+        },
+        {
+            "foto": "",
+            "nombre": "Camiseta slim fit manga corta azul rayas",
+            "categoria": "Camisetas",
+            "descripcion": "Camiseta. Silueta ajustada con cuello redondo manga corta y con ruche (efecto ondulado) en el borde de las mangas y ruedo. Para niña. Tejido de punto. Algodón sostenible.",
+            "precio": 44990
+        },
+        {
+            "foto": "",
+            "nombre": "Camiseta Lopuz slim fit blanca",
+            "categoria": "Camisetas",
+            "descripcion": "Camiseta. Cuello redondo silueta con manga sisa detalle cut out en hombro izquierdo prenda puesta. Para niña. Tejido de punto. Algodón sostenible",
+            "precio": 39990
+        },
+        {
+            "foto": "",
+            "nombre": "Camiseta Cropped Fit Manga Corta Habana",
+            "categoria": "Camisetas",
+            "descripcion": "Camiseta. Con cuello redondo y manga corta. Para niña. Tejido de punto. Algodón sostenible",
+            "precio": 19990
+        },
+        {
+            "foto": "",
+            "nombre": "Camiseta Lendy Regular Fit Manga Corta Rosada Rayas",
+            "categoria": "Camisetas",
+            "descripcion": "Camiseta. Cuello redondo y manga corta. Para niña. Tejido de punto",
+            "precio": 29990
+        },
+        {
+            "foto": "",
+            "nombre": "Camiseta Laelle Regular Fit Manga Corta Blanca",
+            "categoria": "Camisetas",
+            "descripcion": "Camiseta con aplique decorativo en frente (piedras). Cuello redondo y manga corta. Para niña. Tejido de punto. Algodón sostenible",
+            "precio": 49990
+        },
+        {
+            "foto": "",
+            "nombre": "Pantalón Luxij fit tiro medio verde",
+            "categoria": "Pantalones",
+            "descripcion": "Pantalón cargo. Cortes centrales con pespuntes decorativos en pierna frente y posterior. Bolsillo cargo en costados. Tiro medio. Elástico en pretina y cierre de cremallera con botón de pasta. Para niña. Tejido plano",
+            "precio": 119000
+        },
+        {
+            "foto": "",
+            "nombre": "Pantalón loose fit tiro medio en drill crema",
+            "categoria": "Pantalones",
+            "descripcion": "Pantalón Cargo. Bolsillos parche en posterior y costados tiro medio elástico ajustable en la parte interna de la cintura y cierre de cremallera con botón. Para niña. Tejido plano (drill)",
+            "precio": 120990
+        },
+        {
+            "foto": "",
+            "nombre": "Pantalón Wide Leg Para Niña Con Cintura Elástica",
+            "categoria": "Pantalones",
+            "descripcion": "Pantalón en tejido plano silueta wide leg. Cintura elástica. Cordón ajustable. Color beige",
+            "precio": 139990
+        },
+        {
+            "foto": "",
+            "nombre": "Pantalón Wide Leg Para Niña Con Prensas",
+            "categoria": "Pantalones",
+            "descripcion": "Pantalón en tejido plano silueta wide leg. Elástico ajustable interno. Color beige",
+            "precio": 135990
+        },
+        {
+            "foto": "",
+            "nombre": "Pantalón Parachute Para Niña con Bolsillos de Parche",
+            "categoria": "Pantalones",
+            "descripcion": "Pantalón en tejido plano silueta parachute. Cintura elástica. Cordón ajustable. Color gris",
+            "precio": 135990
+        },
+        {
+            "foto": "",
+            "nombre": "Camisa relaxed fit tiras blanca",
+            "categoria": "Camisas",
+            "descripcion": "Top tiras. Cintura con 3 vueltas de hilo elástico. Escote frente y espalda con elástico para mayor sostenimiento cargaderas con reguladores. Prenda confeccionada en tejido de algodón con textura. Para niña. Tejido plano.",
+            "precio": 60000
+        },
+        {
+            "foto": "",
+            "nombre": "Camisa Loose Fit Manga Larga Crema",
+            "categoria": "Camisas",
+            "descripcion": "Camisa manga larga. Silueta oversized. Perilla y puño con botones. Bolsillo en frente. Costuras con destalles al corte. Para niña. Tejido plano",
+            "precio": 69990
+        },
+        {
+            "foto": "",
+            "nombre": "Camisa Loose Fit Manga Larga Verde",
+            "categoria": "Camisas",
+            "descripcion": "Camisa manga larga. Silueta oversized. Perilla y puño con botones. Costuras con destalles al corte. Para niña. Tejido plano",
+            "precio": 69990
+        },
+        {
+            "foto": "",
+            "nombre": "Camisa Oversized Fit Manga Larga Azul con Rayas",
+            "categoria": "Camisas",
+            "descripcion": "Camisa manga larga. Silueta amplia. Perilla y puño con botones. Tejido plano",
+            "precio": 69990
+        },
+        {
+            "foto": "",
+            "nombre": "Body Manga Sisa Para Niña Silueta Ajustada",
+            "categoria": "Camisas",
+            "descripcion": "Body manga sisa en tejido de punto silueta ajustada. Cargadoras y broches ajustables. Forro interno. Color beige",
+            "precio": 79990
+        },
+        {
+            "foto": "",
+            "nombre": "Denim Silueta Slim Para Niño con Bolsillos",
+            "categoria": "Jeans",
+            "descripcion": "Denim en tejido plano silueta slim. Prenda con proceso sostenible. Elástico ajustable interno. Color azul.",
+            "precio": 139990
+        },
+        {
+            "foto": "",
+            "nombre": "Demin Sulueta Slim Para Niño",
+            "categoria": "Jeans",
+            "descripcion": "Denim en tejido plano silueta slim. Prenda con proceso sostenible. Elástico ajustable interno.",
+            "precio": 139990
+        },
+        {
+            "foto": "",
+            "nombre": "Pantalón tipo Jogger para Niño con Bolsillos Cargo",
+            "categoria": "Jeans",
+            "descripcion": "Pantalón en tejido plano silueta jogger. Cordón ajustable. Bolsillo cargo. Prenda con proceso sostenible. Color verde.",
+            "precio": 139990
+        },
+        {
+            "foto": "",
+            "nombre": "Jogger para Niño con Bolsillos Cargo",
+            "categoria": "Jeans",
+            "descripcion": "Pantalón en tejido plano silueta tipo jogger. Prenda con proceso sostenible. Cintura con elástico. Cordón ajustable. Bolsillos cargo. Botas ajustadas. Color gris.",
+            "precio": 145990
+        },
+        {
+            "foto": "",
+            "nombre": "Jean Slim para Niño con Bolsillos",
+            "categoria": "Jeans",
+            "descripcion": "Demin en tejido plano silueta slim. Elástico ajustable interno. Prenda con proceso sostenible. Color azul.",
+            "precio": 139990
+        },
+        {
+            "foto": "",
+            "nombre": "Pantalón Lugot Regular Fit Tiro Medio en Drill Verde",
+            "categoria": "Pantalones",
+            "descripcion": "Pantalón tipo cargo bolsillos diagonales en frente y posterior, cargo laterales, elástico en pretina, cierre de cremallera con botón. Tejido plano.",
+            "precio": 89990
+        },
+        {
+            "foto": "",
+            "nombre": "Pantalón Lugot Regular Fit Tiro Medio en Drill Habano",
+            "categoria": "Pantalones",
+            "descripcion": "Pantalón tipo cargo con bolsillos diagonales, elástico con pretina, cierre y botón. Tejido plano.",
+            "precio": 89990
+        },
+        {
+            "foto": "",
+            "nombre": "Pantalón Regular Fit Tiro Medio Negro",
+            "categoria": "Pantalones",
+            "descripcion": "Pantalón/bermuda con cintura con elástico y cordón. Tejido plano.",
+            "precio": 149990
+        },
+        {
+            "foto": "",
+            "nombre": "Pantalón Regular Fit Tiro Medio En Drill Negro",
+            "categoria": "Pantalones",
+            "descripcion": "Pantalón con silueta regular, 4 bolsillos, elásticos ajustables en la cintura, cierre de cremallera y botón. Tejido plano.",
+            "precio": 79990
+        },
+        {
+            "foto": "",
+            "nombre": "Pantalón Tipo Jogger para Niño con Bolsillo Cargo",
+            "categoria": "Pantalones",
+            "descripcion": "Pantalón en tejido silueta jogger. Cordón ajustable. Bolsillos cargo. Color negro.",
+            "precio": 139990
+        },
+        {
+            "foto": "",
+            "nombre": "Camisa Regular Fit Manga Larga Azul con Rayas",
+            "categoria": "Camisas",
+            "descripcion": "Camisa manga larga con botón ajustable en el puño. Tejido plano.",
+            "precio": 69990
+        },
+        {
+            "foto": "",
+            "nombre": "Camisa Larob Regular Fit Manga Larga Índigo Medio",
+            "categoria": "Camisas",
+            "descripcion": "Camisa manga larga con botón ajustable en el puño. Tejido plano.",
+            "precio": 69990
+        },
+        {
+            "foto": "",
+            "nombre": "Camisa Larob Regular Fit Manga Larga Azul con Cuadros",
+            "categoria": "Camisas",
+            "descripcion": "Camisa manga larga con botón ajustable en el puño. Tejido plano.",
+            "precio": 129990
+        },
+        {
+            "foto": "",
+            "nombre": "Camisa Regular Fit Manga Corta Crema",
+            "categoria": "Camisas",
+            "descripcion": "Camisa regular fit, manga corta con botón y bolsillo en frente. Tejido plano.",
+            "precio": 99990
+        },
+        {
+            "foto": "",
+            "nombre": "Camisa Blanca Manga Larga Para Niño Silueta Clásica",
+            "categoria": "Camisas",
+            "descripcion": "Camisa manga larga en tejido plano, silueta clásica, manga roll up, color blanco.",
+            "precio": 115990
+        },
+        {
+            "foto": "",
+            "nombre": "Camiseta Para niño Manga Corta con Bloques de Color",
+            "categoria": "Camisetas",
+            "descripcion": "Camiseta manga corta en tejido de punto silueta clásica de bloques, color beige.",
+            "precio": 59990
+        },
+        {
+            "foto": "",
+            "nombre": "Camiseta para Niño Manga Corta con Gráfico en el frente",
+            "categoria": "Camisetas",
+            "descripcion": "Camiseta manga corta en tejido de punto silueta clásica, color verde.",
+            "precio": 59990
+        },
+        {
+            "foto": "",
+            "nombre": "Camiseta para niño Manga Corta",
+            "categoria": "Camisetas",
+            "descripcion": "Camiseta manga corta en tejido de punto silueta clásica, color negro, con textura.",
+            "precio": 59990
+        },
+        {
+            "foto": "",
+            "nombre": "Camiseta Polo para Niño Manga Corta",
+            "categoria": "Camisetas",
+            "descripcion": "Camiseta manga corta en tejido de punto silueta clásica tipo polo, con detalle bordado, cuello y mangas en rib, color rojo.",
+            "precio": 85990
+        },
+        {
+            "foto": "",
+            "nombre": "Camiseta Polo para Niño Manga Corta",
+            "categoria": "Camisetas",
+            "descripcion": "Camiseta manga corta en tejido de punto silueta clásica tipo polo, con detalle bordado, cuello y mangas en rib, color azul, 100% algodón.",
+            "precio": 85990
+        }
+    ]
+}
