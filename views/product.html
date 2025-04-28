@@ -49,6 +49,7 @@
     </nav>
 
     <main>
+        <!--CAROSUEL QUE CONTIENE LAS IMAGENES DEL PRODUCTO-->
         <div class="product-container">
             <div id="carouselExample" class="carousel slide w-50">
                 <div class="carousel-inner">
@@ -69,17 +70,28 @@
                 </button>
             </div>
 
+            <!--CONTENDEOR QUE CONTIENE LA INFORMACION DEL PRODUCTO-->
             <div class="info">
                 <div class="title-container">
                     <h2>Nombre</h2>
                 </div>
-                <a href="#" title="btn" type="button">Agregar al carrito</a>
+                <a href="#" title="btn" type="button" id="btn-agg">Agregar al carrito</a>
                 <div class="description-container">
                     <div class="title-container">
                         <h3>Descripción</h3>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic odit odio incidunt. Sint, ipsam adipisci, et accusantium ratione voluptate earum esse dolor saepe mollitia quasi necessitatibus tenetur, sapiente quae magnam.</p>
                 </div>
+            </div>
+        </div>
+
+        <div class="modal-container hide">
+            <div class="modal-check">
+                <p>Su producto ha sido agregado al carrito</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#04cb1f" class="bi bi-check2-circle"   viewBox="0 0 16 16">
+                    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+                    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+                </svg>
             </div>
         </div>
     </main>
