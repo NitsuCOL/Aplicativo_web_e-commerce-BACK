@@ -28,3 +28,10 @@ limpiarCategoria.addEventListener('click', () =>{
         radio.checked = false;
     });
 });
+
+//CARGA DE INFORMACION
+const InitProducts=()=>{
+    cat=localStorage.getItem("Categoria")
+
+}
+

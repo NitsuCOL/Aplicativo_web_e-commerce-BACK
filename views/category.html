@@ -27,14 +27,14 @@
     <!---------------------------->
     <title>BACK</title>
 </head>
-<body>
+<body onload="InitProducts()">
     <nav class="navbar">
         <div class="navbar-container">
             <div class="category-navbar-container">
                 <ul>
-                    <li><a href="../views/category.html">Hombres</a></li>
-                    <li><a href="../views/category.html">Mujeres</a></li>
-                    <li><a href="../views/category.html">Niños</a></li>
+                    <li><a onclick="elegirCategoria(0)" href="#">Hombres</a></li>
+                    <li><a onclick="elegirCategoria(1)" href="#">Mujeres</a></li>
+                    <li><a onclick="elegirCategoria(2)" href="#">Niños</a></li>
                 </ul>
             </div>
             <div class="logo-navbar-container"><a href="../index.html"><img src="../assets/img/logo_new.webp"
