@@ -1,0 +1,143 @@
+{
+  "hombres": [
+    {
+      "foto":"/img/straigh 1.WEBP",
+      "nombre": "Straight para hombres",
+      "categoria": "jean",
+      "descripcion": "**Ajuste y tamaño**\nPierna recta Corte a la  cintura **Composición y cuidado**\n79% Algodón, 19% Poliester, 2% Elastano.\nEn su diseño cuentan con el ajuste clásico de pierna recta, se amolda a la cintura y son amplios en la parte trasera y muslos.\nSon la opción perfecta para aquellos de complexión atlética que buscan una prenda acorde a sus necesidades."
+    },
+    {
+      "foto": "",
+      "nombre": "Taper fit para hombre",
+      "categoria": "jean",
+      "descripcion": "**Ajuste y Tamaño:** Corte regular entre cintura y caderaMuslo regular\n **Pierna Taper:** Ligeramente conicaSlim desde rodilla hasta el tobillo.\n **Composición y Cuidado:**98% Algodón, 2% Elastano \nCorte más versátil, uno que queda bien en casi todo tipo de cuerpo y funcional para cualquier persona. Con un corte más ajustado y con una abertura de pierna cónica, son ideales para lucir esos zapatos nuevos.",
+      "precio": 200000
+    },
+    {
+      "foto": "",
+      "nombre": "Skinny fit",
+      "categoria": "jean",
+      "descripcion": "**Ajuste y tamaño**\nTiro medio\nCorte a la cintura\nPierna Skinny ajustado desde muslo hasta el tobillo\n**Composición y cuidado**\n98% Algodón, 2% Elastano\nEstán hechos para tener una apariencia contemporánea. Un estilo cómodo que puedes combinar con todo.",
+      "precio": 190000
+    },
+    {
+      "foto": "",
+      "nombre": "Slim fit",
+      "categoria": "jeans",
+      "descripcion": "**Ajuste y tamaño**\nTiro Medio\nPierna Slim desde el muslo hasta el tobillo\n**Composición y cuidado**\n98% Algodón, 2% Elastano\nEstos jeans se encuentran en el punto ideal entre un jean skinny y un jean regular. Como probablemente adivinó por su nombre, presenta un corte ajustado a través del muslo que se estrecha hasta el tobillo.",
+      "precio": 200000
+    },
+    {
+      "foto": "",
+      "nombre": "Regular",
+      "categoria": "jeans",
+      "descripcion": "**Ajuste y tamaño**\nTiro medio\nCorte a la cintura\nPierna recta desde el muslo hasta el tobillo\n**Composición y cuidado**\n98% Algodón, 2% Elastano\nCon su versátil pierna recta y su estilo clásico, este ajuste se adapta a todo tipo de cuerpo y va con casi todo.",
+      "precio": 99000
+    },
+    {
+      "foto": "",
+      "nombre": "Camiseta polo unicolor con rayas y cuello en contraste",
+      "categoria": "camisetas",
+      "descripcion": "Camiseta unicolor tipo polo para hombre cuenta con diseños de rayas, puños y borde inferior con doblez, cuello tejido en contraste, pechera con botones y una silueta ajustada al cuerpo.",
+      "precio": 60000
+    },
+    {
+      "foto": "",
+      "nombre": "Camiseta crema tie dye cuello redondo de Coca-Cola",
+      "categoria": "camisetas",
+      "descripcion": "Camiseta para hombre cuello redondo crema clara con efecto tie dye, confeccionada en tela de algodón, cuenta con hombro rodado, manga corta, diseño en frente de Coca-Cola y un fit ligeramente ajustado.",
+      "precio": 25000
+    },
+    {
+      "foto": "",
+      "nombre": "Camiseta unicolor polo con aberturas laterales y botones",
+      "categoria": "camisetas",
+      "descripcion": "Camiseta polo unicolor para hombre cuenta con cuello y puños tejidos con detalles de líneas, manga corta, pechera con doble botón, aberturas laterales y una silueta ajustada al cuerpo.",
+      "precio": 54000
+    },
+    {
+      "foto": "",
+      "nombre": "Pack X4 de camisetas unicolores en algodón con manga corta",
+      "categoria": "camisetas",
+      "descripcion": "Pack X4 de camisetas para hombre unicolores (crema, blanca y kaki), confeccionadas en tela 100% de algodón, cuentan con cuello redondo, manga corta y un fit ceñido al cuerpo.",
+      "precio": 60000
+    },
+    {
+      "foto": "",
+      "nombre": "Pack de camisetas unicolores X2 manga corta oversize",
+      "categoria": "camisetas",
+      "descripcion": "Pack X2 de camisetas para hombre en tonos grises y crema, confeccionadas en tela 100% de algodón y con un fit oversize, cuentan con hombro rodado, manga corta y cuello redondo.",
+      "precio": 45000
+    },
+    {
+      "foto": "",
+      "nombre": "Pantalón jogger unicolor con bolsillos y bota recta",
+      "categoria": "pantalones",
+      "descripcion": "Pantalón unicolor jogger para hombre cuenta con cintura elástica, vena decorativa en la pierna, bota recta, 2 bolsillos en los costados y una silueta ligeramente ajustada al cuerpo.",
+      "precio": 60000
+    },
+    {
+      "foto": "",
+      "nombre": "Pantalón cargo en dril unicolor con cintura ajustable",
+      "categoria": "pantalones",
+      "descripcion": "Pantalón unicolor cargo en dril para hombre cuenta con tiro bajo, detalle con cintura ajustable con botones, bolsillos utilitarios en los costados, bota recta y un fit sutilmente holgado al cuerpo.",
+      "precio": 95000
+    },
+    {
+      "foto": "",
+      "nombre": "Pantalón unicolor slim en dril con tiro medio y bota recta",
+      "categoria": "pantalones",
+      "descripcion": "Pantalón en dril slim unicolor para hombre cuenta con bolsillos tipo chinos, tiro medio, cierre delantero con cremallera, bota recta y un fit sutilmente ceñido al cuerpo.",
+      "precio": 95000
+    },
+    {
+      "foto": "",
+      "nombre": "Pantalón en dril unicolor súper slim con tiro medio",
+      "categoria": "pantalones",
+      "descripcion": "Pantalón en dril súper slim con tiro medio.",
+      "precio": null
+    },
+    {
+      "foto": "",
+      "nombre": "Pantalón jogger gris intenso con diseño de Rick and Morty",
+      "categoria": "pantalones",
+      "descripcion": "Pantalón gris intenso tipo jogger para hombre cuenta con bota recta, diseños continuos de Rick and Morty, cintura elástica, 2 bolsillos laterales y un fit ligeramente holgado en el cuerpo.",
+      "precio": 63000
+    },
+    {
+      "foto": "",
+      "nombre": "Sobrecamisa oversize unicolor con bolsillos y cuello sport",
+      "categoria": "camisas",
+      "descripcion": "Sobrecamisa para hombre en tono unicolor, elaborada en tela 100% de algodón y con una silueta oversize, cuenta con cuello sport, manga larga, cierre delantero con botones y doble bolsillo con tapa en el pecho.",
+      "precio": 95000
+    },
+    {
+      "foto": "",
+      "nombre": "Camisa cuello sport collar unicolor con bolsillos cuadrados",
+      "categoria": "camisas",
+      "descripcion": "Camisa unicolor con cuello sport collar para hombre cuenta con mangas cortas, doble bolsillo cuadrado en frente, cierre delantero con botones y una silueta holgada al cuerpo.",
+      "precio": 60000
+    },
+    {
+      "foto": "",
+      "nombre": "Sobrecamisa unicolor a cuadros con capota removible",
+      "categoria": "camisas",
+      "descripcion": "Sobrecamisa para hombre con capota removible unicolor, elaborada con fibras naturales, cuenta con un diseño de cuadros, cierre con botonadura frontal y doble bolsillo con tapa en frente.",
+      "precio": 90000
+    },
+    {
+      "foto": "",
+      "nombre": "Camisa cuello sport collar unicolor a rayas con manga corta",
+      "categoria": "camisas",
+      "descripcion": "Camisa unicolor con cuello sport collar para hombre cuenta con diseños de rayas verticales, cierre delantero con botones, bolsillo en el pecho, manga corta y un fit ligeramente ajustado al cuerpo.",
+      "precio": 70000
+    },
+    {
+      "foto": "",
+      "nombre": "Pack x2 Camisa unicolor con diseños de rayas y manga larga",
+      "categoria": "camisas",
+      "descripcion": "Dos Camisas para hombre manga larga unicolor, confeccionada en tela de algodón, cuenta con cuello button down, cierre con botones en frente, diseños de rayas, bolsillo en el pecho y un fit ajustado.",
+      "precio": 80000
+    }
+  ]
+}
