@@ -55,7 +55,7 @@ const InitProducts=()=>{
         </div>
         <div class="info-products-card">
             <h4>${Articulo.nombre}</h4>
-            <p>${Articulo.precio}</p>
+            <p>$ ${Articulo.precio}</p>
         </div>
     </div>`
     })
