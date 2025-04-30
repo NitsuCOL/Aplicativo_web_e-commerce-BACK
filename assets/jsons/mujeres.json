@@ -1,5 +1,4 @@
-{
-  "mujeres": [
+[
     {
       "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/botas/boot1.webp",
       "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/botas/boot2.webp",
@@ -160,5 +159,4 @@
       "descripcion": "Blusa unicolor de silueta crop top para mujer cuenta con cuello camisero, cierre delantero con botones, manga larga y un fit que se ajustará al cuerpo en la medida precisa.",
       "precio": 60000
     }
-  ]
-}
+]

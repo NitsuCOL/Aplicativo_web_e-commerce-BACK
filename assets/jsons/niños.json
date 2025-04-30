@@ -1,5 +1,4 @@
-{
-    "niños": [
+[
         {
             "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/jogger/jgn.webp",
             "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/jogger/jgn2.webp",
@@ -320,5 +319,4 @@
             "descripcion": "Camiseta manga corta en tejido de punto silueta clásica tipo polo, con detalle bordado, cuello y mangas en rib, color azul, 100% algodón.",
             "precio": 85990
         }
-    ]
-}
+]

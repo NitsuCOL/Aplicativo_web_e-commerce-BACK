@@ -32,5 +32,35 @@ limpiarCategoria.addEventListener('click', () =>{
 //CARGA DE INFORMACION
 const InitProducts=()=>{
     cat=localStorage.getItem("Categoria")
-
+    path=""
+    if(cat=="0"){
+        path='../assets/jsons/hombres.json'
+    }else if(cat=="1"){
+        path='../assets/jsons/mujeres.json'
+    }else if(cat=="2"){
+        path='../assets/jsons/niños.json'
+    }
+    console.log(path)
+    fetch(path)
+  .then(response => response.json())
+  .then(data => {
+    console.log(data)
+    contenedorProductos=document.getElementById("pc")
+    Productos=data
+    Productos.forEach(function(Articulo){
+        contenedorProductos.innerHTML+=`<div class="card">
+        <div class="img-container" onclick="Articulo(${Articulo.id})">
+            <img class="img-front" src="${Articulo.foto1}" alt="${Articulo.nombre}">
+            <img class="img-back" src="${Articulo.foto2}" alt="Camisa cuello sport parte traseta">
+        </div>
+        <div class="info-products-card">
+            <h4>${Articulo.nombre}</h4>
+            <p>${Articulo.precio}</p>
+        </div>
+    </div>`
+    })
+    
+    
+  })
+  .catch(error => console.error('Error al obtener el archivo JSON:', error));
 }

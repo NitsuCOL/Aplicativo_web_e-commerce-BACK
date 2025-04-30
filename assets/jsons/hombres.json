@@ -1,5 +1,4 @@
-{
-  "hombres": [
+[
     {
       "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/HOMBRE/JEANS/straight/straight_1.webp",
       "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/HOMBRE/JEANS/straight/straight_2.webp",
@@ -159,5 +158,4 @@
       "descripcion": "Dos Camisas para hombre manga larga unicolor, confeccionada en tela de algodón, cuenta con cuello button down, cierre con botones en frente, diseños de rayas, bolsillo en el pecho y un fit ajustado.",
       "precio": 80000
     }
-  ]
-}
+]
