@@ -27,7 +27,7 @@
     <!---------------------------->
     <title>BACK</title>
 </head>
-<body onload="InitProducts()">
+<body onload="IdvArticulo()">
     <nav class="navbar">
         <div class="navbar-container">
             <div class="category-navbar-container">
@@ -49,40 +49,9 @@
     </nav>
 
     <main>
-        <!--CAROSUEL QUE CONTIENE LAS IMAGENES DEL PRODUCTO-->
-        <div class="product-container">
-            <div id="carouselExample" class="carousel slide w-50">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../assets/img/Productos/HOMBRE/CAMISAS/camisa_cuello_sport/sobrecamisa_sport 1.webp" class="d-block" alt="foto-1">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/img/Productos/HOMBRE/CAMISAS/camisa_cuello_sport/sobrecamisa_sport2.webp" class="d-block" alt="foto-2">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+    <!--CAROSUEL QUE CONTIENE LAS IMAGENES DEL PRODUCTO-->
+        <div id="Articulo">
 
-            <!--CONTENDEOR QUE CONTIENE LA INFORMACION DEL PRODUCTO-->
-            <div class="info">
-                <div class="title-container">
-                    <h2>Nombre</h2>
-                </div>
-                <a href="#" title="btn" type="button" id="btn-agg">Agregar al carrito</a>
-                <div class="description-container">
-                    <div class="title-container">
-                        <h3>Descripción</h3>
-                    </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic odit odio incidunt. Sint, ipsam adipisci, et accusantium ratione voluptate earum esse dolor saepe mollitia quasi necessitatibus tenetur, sapiente quae magnam.</p>
-                </div>
-            </div>
         </div>
 
         <div class="modal-container hide">
@@ -148,7 +117,7 @@
     <script src="../assets/js/product.js"></script>
     <!----------------------------------------------------->
     <!--ARCHIVO SCRIPT GLOBAL-->
-    <script src="./assets/js/global.js"></script>
+    <script src="../assets/js/global.js"></script>
     <!-------------------->
     <!--SCRIPT DE BOOTSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>

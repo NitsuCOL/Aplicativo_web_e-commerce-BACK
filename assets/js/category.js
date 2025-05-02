@@ -45,21 +45,19 @@ for(radio in RadiosFiltro){
           Productos=data
           Productos.forEach(function(Articulo){
             if(Articulo.categoria==IdRadio){
-              contenedorProductos.innerHTML+=`<div class="card">
-              <div class="img-container" onclick="Articulo(${Articulo.id})">
-                  <img class="img-front" src="${Articulo.foto1}" alt="${Articulo.nombre}">
-                  <img class="img-back" src="${Articulo.foto2}" alt="Camisa cuello sport parte traseta">
-              </div>
-              <div class="info-products-card">
-                  <h4>${Articulo.nombre}</h4>
-                  <p>$ ${Articulo.precio}</p>
-              </div>
-          </div>`
+                JsonIndividual=JSON.stringify(Articulo)
+                contenedorProductos.innerHTML+=`<div class="card">
+                <div class="img-container" onclick="IdvArticulo(${JsonIndividual},${path})">
+                    <img class="img-front" src="${Articulo.foto1}" alt="${Articulo.nombre}">
+                    <img class="img-back" src="${Articulo.foto2}" alt="${Articulo.nombre}">
+                </div>
+                <div class="info-products-card">
+                    <h4>${Articulo.nombre}</h4>
+                    <p>$ ${Articulo.precio}</p>
+                </div>
+            </div>`
             }
           })
-        
-          
-          
         })
         .catch(error => console.error('Error al obtener el archivo JSON:', error));
 
@@ -95,13 +93,7 @@ const FiltroSegunPagina=(cat)=>{
     }
 }
 
-
-
-//CARGA DE INFORMACION
-const InitProducts=()=>{
-    cat=localStorage.getItem("Categoria")
-    //cambio de opciones de filtro segun la categoria cargada
-    FiltroSegunPagina(cat)
+const getPath=(cat)=>{
     path=""
     if(cat=="0"){
         path='../assets/jsons/hombres.json'
@@ -113,8 +105,18 @@ const InitProducts=()=>{
         path='../assets/jsons/niños.json'
 
     }
-    RadiosCheck(path)
+    return path
+}
 
+//CARGA DE INFORMACION
+const InitProducts=()=>{
+    cat=localStorage.getItem("Categoria")
+    //cambio de opciones de filtro segun la categoria cargada
+    FiltroSegunPagina(cat)
+    //OBTENER PATH AL CUAL SOLICITAR INFO
+    path=getPath(cat)
+    //ACTIVACION DE LOS RADIO BUTTON PARA FILTRO
+    RadiosCheck(path)
     fetch(path)
   .then(response => response.json())
   .then(data => {
@@ -122,14 +124,16 @@ const InitProducts=()=>{
     contenedorProductos.innerHTML=""
     Productos=data
     Productos.forEach(function(Articulo){
+        idArt=parseInt(Articulo.id)
+
         contenedorProductos.innerHTML+=`<div class="card">
-        <div class="img-container" onclick="Articulo(${Articulo.id})">
+        <div class="img-container" onclick="IdvArticulo(${idArt},${cat})">
             <img class="img-front" src="${Articulo.foto1}" alt="${Articulo.nombre}">
-            <img class="img-back" src="${Articulo.foto2}" alt="Camisa cuello sport parte traseta">
+            <img class="img-back" src="${Articulo.foto2}" alt="${Articulo.nombre}">
         </div>
         <div class="info-products-card">
             <h4>${Articulo.nombre}</h4>
-            <p>$ ${Articulo.precio}</p>
+            <p>${Articulo.precio}</p>
         </div>
     </div>`
     })
@@ -137,4 +141,15 @@ const InitProducts=()=>{
     
   })
   .catch(error => console.error('Error al obtener el archivo JSON:', error));
+}
+
+
+//ABRIR PAGINA DONDE SE MUESTRA TODO LO DEL ARTICULO
+const IdvArticulo=(Id,cat)=>{
+    path=getPath(cat)
+    console.log(Id)
+    info={"id":Id,
+        "path":path}
+    localStorage.setItem("Articulo",JSON.stringify(info))
+    window.location.href="product.html"
 }

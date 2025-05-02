@@ -8,10 +8,10 @@ const elegirCategoria=(CAT)=>{
     }else if(CAT==2){
         localStorage.setItem("Categoria","2")
     }
-    if(window.location.href.includes("/category.html")){
-        window.location.reload()
-    }else{
+    if(window.location.href.includes("index.html")){
         window.location.href="views/category.html"
+    }else{
+        window.location.href="category.html"
     }
 
 }
