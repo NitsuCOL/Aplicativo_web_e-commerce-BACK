@@ -12,6 +12,7 @@ const IdvArticulo=()=>{
     Productos=data
     Productos.forEach(function(Producto){
         if(Producto.id==Articulo.id){
+        idProduct=Producto.id
         ContenedorArticulo.innerHTML+=`
         <div class="product-container">
             <div id="carouselExample" class="carousel slide w-50">
@@ -38,7 +39,7 @@ const IdvArticulo=()=>{
                 <div class="title-container">
                     <h2>${Producto.nombre}</h2>
                 </div>
-                <a href="#" title="btn" type="button" id="btn-agg">Agregar al carrito</a>
+                <a href="#" title="btn" onclick="Botones(${idProduct})" type="button" id="btn-agg">Agregar al carrito</a>
                 <div class="description-container">
                     <div class="title-container">
                         <h3>Descripción</h3>
@@ -47,7 +48,7 @@ const IdvArticulo=()=>{
                 </div>
             </div>
         </div>`
-        Botones()
+        
         }
     })
     
@@ -57,13 +58,64 @@ const IdvArticulo=()=>{
 
 }
 
-const Botones=()=>{
-    const btnAgregar = document.getElementById('btn-agg');
-    btnAgregar.addEventListener('click', () =>{
+const Botones=(id)=>{
+    Carrito=localStorage.getItem("Carrito")
+    console.log(Carrito)
+    if(Carrito!=null){
+        Carrito=JsonArray(JSON.parse(Carrito))
+        Carrito.push([['id:',id],['cant',1]])
+        Carrito=ArrayJson(Carrito)
+        localStorage.setItem("Carrito",Carrito)
+    }else if(Carrito==null){
+        info={
+            id:id,
+            cant:1
+        }
+        Carrito=localStorage.setItem("Carrito",JSON.stringify(info))
+    }
     contenedorModal.classList.remove('hide');
+
 
     setTimeout(() => {
         contenedorModal.classList.add('hide');
     }, 1000);
-});
+// });
 }
+
+const JsonArray=(Carrito)=>{
+    var result = [];
+    dato=[]
+    j=0
+    for(var i in Carrito){
+        dato.push([i,Carrito[i]])
+        if(j==1){
+            result.push(dato)
+            dato=[]
+            j=0
+        }
+        j++
+    }    
+    return result
+}
+
+const ArrayJson=(Carrito)=>{
+    console.log(Carrito)
+    j=0
+    var result = "[";
+    for(var i in Carrito){
+        if(j==1){
+            result+=","
+            j=0
+        }
+        Iter=Carrito[i]
+        result+=`{
+            "id":${Iter[0][1]},
+            "cant":${Iter[1][1]}
+        }`;
+        j++
+    }
+    result+="]"
+    
+    return result
+}
+
