@@ -1,162 +1,182 @@
 [
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/botas/boot1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/botas/boot2.webp",
-      "nombre": "Baggy Boot para Mujer",
-      "categoria": "jeans",
-      "descripcion": "Estos jeans de corte relajado y cintura media serán tus aliados para hacer resaltar tu figura y lo mejor de tu personalidad.\n**Ajuste y tamaño**\nJeans con un toque de los años 90\nCintura media\nCorte relajado\n**Composición y cuidado**\n100% Algodón",
-      "precio": 200000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/high_wisted/hw1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/high_wisted/hw2.webp",
-      "nombre": "High Waisted Mom para Mujer",
-      "categoria": "jeans",
-      "descripcion": "Estos jeans llevan cintura alta para brindarte una increíble silueta; su corte es ligeramente holgado y se va estrechando hasta el tobillo para lograr una pierna cónica; están inspirados en el estilo vintage.\n**Ajuste y tamaño**\nRelajado en cadera y muslos.\nCintura alta.\nPierna cónica.\nCon cierre.\n**Composición y cuidado**\n100% Cotton.",
-      "precio": 190000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/high_raised/hr1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/high_raised/hr2.webp",
-      "nombre": "High-Rise Super Skinny para Mujer",
-      "categoria": "jeans",
-      "descripcion": "Están diseñados con cintura alta, y elaborados con mezclilla stretch que se amolda a la cadera y muslos realzando tu figura.\n**Ajuste y tamaño**\nTiro alto\nCintura alta\nSúper ajustado en piernas\nAjuste en cadera y muslos\n**Composición y cuidado**\n61% Algodón, 19% Poliéster, 19% Lyocell®, 1% Elastano",
-      "precio": 170000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/high_raised_skinny/hrskinny1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/high_raised_skinny/hrskinny2.webp",
-      "nombre": "High Rise Skinny para Mujer",
-      "categoria": "jeans",
-      "descripcion": "Estos jeans de tiro alto se te verán grandiosos por la mezclilla stretch diseñada para verte bien todo el día, todos los días. No importa tu tipo de cuerpo, este jean para mujer es ajustado a través de la cadera y el muslo con nuestra apertura de pierna skinny clásica y cintura alta.\n**Ajuste y tamaño**\nTiro Alto\nCorte a la cintura\nAjustado desde la cadera al muslo\nPierna skinny\n**Composición y cuidado**\n98% Algodón, 2% Elastano",
-      "precio": 190000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/lightweight/lw1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/lightweight/lw2.webp",
-      "nombre": "90s lightweight para Mujer",
-      "categoria": "jeans",
-      "descripcion": "Estos jeans de pierna recta y cintura alta serán tus aliados para hacer resaltar tu figura y lo mejor de tu personalidad.\n**Ajuste y tamaño**\nTiro Alto\nPierna recta\nNo Stretch\n**Composición y cuidado**\n79% Algodón, 21% Lyocell",
-      "precio": 200000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/manga_larga/ml1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/manga_larga/ml2.webp",
-      "nombre": "Camiseta manga ranglan larga unicolor con arte de comida",
-      "categoria": "camisetas",
-      "descripcion": "Camiseta unicolor para mujer, confeccionada en tela de algodón, cuenta con cuello redondo, manga ranglan larga en contraste, diseño de comida en frente y una silueta ajustada al cuerpo.",
-      "precio": 41000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/pack_camiseta_cuello_redondo/pckcuellor1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/pack_camiseta_cuello_redondo/pckcuellor2.webp",
-      "nombre": "Pack de camisetas crema y gris  X4 cuello redondo",
-      "categoria": "camisetas",
-      "descripcion": "Pack X4 de camisetas crema y gris para mujer, confeccionadas en una suave tela de algodón, cuentan con cuello redondo, manga corta y un fit que se ajustará al cuerpo en la medida precisa.",
-      "precio": 50000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/camidseta_unicolor_ribs/ribs1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/camidseta_unicolor_ribs/ribs2.webp",
-      "nombre": "Camiseta unicolor manga corta ajustada en rib",
-      "categoria": "camisetas",
-      "descripcion": "Camiseta manga corta unicolor para mujer, elaborada en tela de rib, cuenta con finas texturas de canal, cuello redondo y una silueta ajustada al cuerpo.",
-      "precio": 25000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/camiseta_etampado/estampa2.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/camiseta_etampado/estap1.webp",
-      "nombre": "Camiseta cuello redondo kaki clara con estampado college",
-      "categoria": "camisetas",
-      "descripcion": "Camiseta kaki clara para mujer, confeccionada en tela de algodón, cuenta con cuello redondo, manga corta, estampado college localizado en frente y una silueta holgada en el cuerpo.",
-      "precio": 25000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/oversize/uni1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/oversize/uni2.webp",
-      "nombre": "Camiseta unicolor crop top oversize con frase en frente",
-      "categoria": "camisetas",
-      "descripcion": "Camiseta crop top unicolor para mujer cuenta con manga corta, cuello redondo, frase estampada en frente, hombro caído y una silueta oversize en el cuerpo.",
-      "precio": 25000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/pantalon_jogger/pj1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/pantalon_jogger/pj2.webp",
-      "nombre": "Pantalón jogger unicolor con bota recta y bolsillos",
-      "categoria": "pantalones",
-      "descripcion": "Pantalón para mujer tipo jogger unicolor cuenta con cintura elástica, 2 bolsillos laterales, detalle con corte en frente, bota recta y una silueta ligeramente holgada al cuerpo.",
-      "precio": 60000
-    },
-    {
-      "foto1":"https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/pantalon_bota_recta/pb1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/pantalon_bota_recta/pb2.webp",
-      "nombre": "Pantalón bota recta azul intenso con cremallera y tiro alto",
-      "categoria": "pantalones",
-      "descripcion": "Pantalón azul intenso para mujer, elaborado en tela ligera, cuenta con bota recta, cierre delantero con cremallera, tiro alto, botón en la cintura y un fit sutilmente holgado en el cuerpo.",
-      "precio": 100000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/cargo/cargo1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/cargo/cargo2.webp",
-      "nombre": "Pantalón cargo negro con bota recta y tiro alto",
-      "categoria": "pantalones",
-      "descripcion": "Pantalón negro cargo para mujer cuenta con bolsillos en los costados, bota recta, tiro alto, pretina con botón y un fit ligeramente ajustado al cuerpo.",
-      "precio": 99900
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/pan_jogger_2/pj22.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/pan_jogger_2/pj23.webp",
-      "nombre": "Pantalón jogger cargo unicolor con bolsillos laterales",
-      "categoria": "pantalones",
-      "descripcion": "Pantalón unicolor jogger cargo para mujer cuenta con cintura elástica, puños en rib con ajuste en los tobillos, bolsillos laterales y una silueta ligeramente holgada al cuerpo.",
-      "precio": 60000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/cargo2/car1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/cargo2/car2.webp",
-      "nombre": "Pantalón cargo unicolor con tiro alto y cintura elástica",
-      "categoria": "pantalones",
-      "descripcion": "Pantalón unicolor cargo para mujer cuenta con cintura elástica con trabillas, bolsillos, tiro alto, bota recta y un fit que se ajustará a tu cuerpo en la medida precisa.",
-      "precio": 99000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/cuadros/cua1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/cuadros/cua2.webp",
-      "nombre": "Blusa unicolor a cuadros con manga larga y cuello camisero",
-      "categoria": "blusas",
-      "descripcion": "Blusa manga larga para mujer en tono unicolor cuenta con cuello camisero, diseños de cuadros, doble bolsillo en el pecho, cierre delantero con botones y una silueta ligeramente holgada al cuerpo.",
-      "precio": 50000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/manga_larga/ml3.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/manga_larga/ml4.webp",
-      "nombre": "Blusa en satín unicolor con manga larga y cuello camisero",
-      "categoria": "blusas",
-      "descripcion": "Blusa manga larga unicolor para mujer, confeccionada en tela de satín, cuenta con cierre delantero con botones, cuello camisero, cintura entallada y un fit ligeramente ajustado al cuerpo.",
-      "precio": 70000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/oversize/over1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/oversize/over2.webp",
-      "nombre": "Blusa negra oversize con cuello camisero y manga 3/4 amplia",
-      "categoria": "blusas",
-      "descripcion": "Blusa con cuello camisero negra para mujer, elaborada en tela de algodón, cuenta con manga 3/4 amplia, prense posterior, cierre delantero con botones y una silueta oversize.",
-      "precio": 60000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/sin_manga/sinm1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/sin_manga/sinm2.webp",
-      "nombre": "Blusa manga sisa unicolor con detalles bordados",
-      "categoria": "blusas",
-      "descripcion": "Blusa unicolor manga sisa para mujer cuenta con espalda encauchada, tiras delgadas, escote cuadrado, detalles bordados localizados y un fit que se ajustará al cuerpo en la medida precisa.",
-      "precio": 70000
-    },
-    {
-      "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/satin/sa1.webp",
-      "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/satin/sa2.webp",
-      "nombre": "Blusa crop top unicolor con manga larga y botones",
-      "categoria": "blusas",
-      "descripcion": "Blusa unicolor de silueta crop top para mujer cuenta con cuello camisero, cierre delantero con botones, manga larga y un fit que se ajustará al cuerpo en la medida precisa.",
-      "precio": 60000
-    }
+  {
+    "id": 20,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/botas/boot1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/botas/boot2.webp",
+    "nombre": "Baggy Boot para Mujer",
+    "categoria": "jeans",
+    "descripcion": "Estos jeans de corte relajado y cintura media serán tus aliados para hacer resaltar tu figura y lo mejor de tu personalidad.\n**Ajuste y tamaño**\nJeans con un toque de los años 90\nCintura media\nCorte relajado\n**Composición y cuidado**\n100% Algodón",
+    "precio": 200000
+  },
+  {
+    "id": 21,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/high_wisted/hw1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/high_wisted/hw2.webp",
+    "nombre": "High Waisted Mom para Mujer",
+    "categoria": "jeans",
+    "descripcion": "Estos jeans llevan cintura alta para brindarte una increíble silueta; su corte es ligeramente holgado y se va estrechando hasta el tobillo para lograr una pierna cónica; están inspirados en el estilo vintage.\n**Ajuste y tamaño**\nRelajado en cadera y muslos.\nCintura alta.\nPierna cónica.\nCon cierre.\n**Composición y cuidado**\n100% Cotton.",
+    "precio": 190000
+  },
+  {
+    "id": 22,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/high_raised/hr1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/high_raised/hr2.webp",
+    "nombre": "High-Rise Super Skinny para Mujer",
+    "categoria": "jeans",
+    "descripcion": "Están diseñados con cintura alta, y elaborados con mezclilla stretch que se amolda a la cadera y muslos realzando tu figura.\n**Ajuste y tamaño**\nTiro alto\nCintura alta\nSúper ajustado en piernas\nAjuste en cadera y muslos\n**Composición y cuidado**\n61% Algodón, 19% Poliéster, 19% Lyocell®, 1% Elastano",
+    "precio": 170000
+  },
+  {
+    "id": 23,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/high_raised_skinny/hrskinny1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/high_raised_skinny/hrskinny2.webp",
+    "nombre": "High Rise Skinny para Mujer",
+    "categoria": "jeans",
+    "descripcion": "Estos jeans de tiro alto se te verán grandiosos por la mezclilla stretch diseñada para verte bien todo el día, todos los días. No importa tu tipo de cuerpo, este jean para mujer es ajustado a través de la cadera y el muslo con nuestra apertura de pierna skinny clásica y cintura alta.\n**Ajuste y tamaño**\nTiro Alto\nCorte a la cintura\nAjustado desde la cadera al muslo\nPierna skinny\n**Composición y cuidado**\n98% Algodón, 2% Elastano",
+    "precio": 190000
+  },
+  {
+    "id": 24,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/lightweight/lw1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/JEANS/lightweight/lw2.webp",
+    "nombre": "90s lightweight para Mujer",
+    "categoria": "jeans",
+    "descripcion": "Estos jeans de pierna recta y cintura alta serán tus aliados para hacer resaltar tu figura y lo mejor de tu personalidad.\n**Ajuste y tamaño**\nTiro Alto\nPierna recta\nNo Stretch\n**Composición y cuidado**\n79% Algodón, 21% Lyocell",
+    "precio": 200000
+  },
+  {
+    "id": 25,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/manga_larga/ml1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/manga_larga/ml2.webp",
+    "nombre": "Camiseta manga ranglan larga unicolor con arte de comida",
+    "categoria": "camisetas",
+    "descripcion": "Camiseta unicolor para mujer, confeccionada en tela de algodón, cuenta con cuello redondo, manga ranglan larga en contraste, diseño de comida en frente y una silueta ajustada al cuerpo.",
+    "precio": 41000
+  },
+  {
+    "id": 26,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/pack_camiseta_cuello_redondo/pckcuellor1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/pack_camiseta_cuello_redondo/pckcuellor2.webp",
+    "nombre": "Pack de camisetas crema y gris  X4 cuello redondo",
+    "categoria": "camisetas",
+    "descripcion": "Pack X4 de camisetas crema y gris para mujer, confeccionadas en una suave tela de algodón, cuentan con cuello redondo, manga corta y un fit que se ajustará al cuerpo en la medida precisa.",
+    "precio": 50000
+  },
+  {
+    "id": 27,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/camidseta_unicolor_ribs/ribs1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/camidseta_unicolor_ribs/ribs2.webp",
+    "nombre": "Camiseta unicolor manga corta ajustada en rib",
+    "categoria": "camisetas",
+    "descripcion": "Camiseta manga corta unicolor para mujer, elaborada en tela de rib, cuenta con finas texturas de canal, cuello redondo y una silueta ajustada al cuerpo.",
+    "precio": 25000
+  },
+  {
+    "id": 28,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/camiseta_etampado/estampa2.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/camiseta_etampado/estap1.webp",
+    "nombre": "Camiseta cuello redondo kaki clara con estampado college",
+    "categoria": "camisetas",
+    "descripcion": "Camiseta kaki clara para mujer, confeccionada en tela de algodón, cuenta con cuello redondo, manga corta, estampado college localizado en frente y una silueta holgada en el cuerpo.",
+    "precio": 25000
+  },
+  {
+    "id": 29,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/oversize/uni1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/CAMISETAS/oversize/uni2.webp",
+    "nombre": "Camiseta unicolor crop top oversize con frase en frente",
+    "categoria": "camisetas",
+    "descripcion": "Camiseta crop top unicolor para mujer cuenta con manga corta, cuello redondo, frase estampada en frente, hombro caído y una silueta oversize en el cuerpo.",
+    "precio": 25000
+  },
+  {
+    "id": 30,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/pantalon_jogger/pj1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/pantalon_jogger/pj2.webp",
+    "nombre": "Pantalón jogger unicolor con bota recta y bolsillos",
+    "categoria": "pantalones",
+    "descripcion": "Pantalón para mujer tipo jogger unicolor cuenta con cintura elástica, 2 bolsillos laterales, detalle con corte en frente, bota recta y una silueta ligeramente holgada al cuerpo.",
+    "precio": 60000
+  },
+  {
+    "id": 31,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/pantalon_bota_recta/pb1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/pantalon_bota_recta/pb2.webp",
+    "nombre": "Pantalón bota recta azul intenso con cremallera y tiro alto",
+    "categoria": "pantalones",
+    "descripcion": "Pantalón azul intenso para mujer, elaborado en tela ligera, cuenta con bota recta, cierre delantero con cremallera, tiro alto, botón en la cintura y un fit sutilmente holgado en el cuerpo.",
+    "precio": 100000
+  },
+  {
+    "id": 32,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/cargo/cargo1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/cargo/cargo2.webp",
+    "nombre": "Pantalón cargo negro con bota recta y tiro alto",
+    "categoria": "pantalones",
+    "descripcion": "Pantalón negro cargo para mujer cuenta con bolsillos en los costados, bota recta, tiro alto, pretina con botón y un fit ligeramente ajustado al cuerpo.",
+    "precio": 99900
+  },
+  {
+    "id": 33,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/pan_jogger_2/pj22.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/pan_jogger_2/pj23.webp",
+    "nombre": "Pantalón jogger cargo unicolor con bolsillos laterales",
+    "categoria": "pantalones",
+    "descripcion": "Pantalón unicolor jogger cargo para mujer cuenta con cintura elástica, puños en rib con ajuste en los tobillos, bolsillos laterales y una silueta ligeramente holgada al cuerpo.",
+    "precio": 60000
+  },
+  {
+    "id": 34,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/cargo2/car1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/Pantalon/cargo2/car2.webp",
+    "nombre": "Pantalón cargo unicolor con tiro alto y cintura elástica",
+    "categoria": "pantalones",
+    "descripcion": "Pantalón unicolor cargo para mujer cuenta con cintura elástica con trabillas, bolsillos, tiro alto, bota recta y un fit que se ajustará a tu cuerpo en la medida precisa.",
+    "precio": 99000
+  },
+  {
+    "id": 35,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/cuadros/cua1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/cuadros/cua2.webp",
+    "nombre": "Blusa unicolor a cuadros con manga larga y cuello camisero",
+    "categoria": "blusas",
+    "descripcion": "Blusa manga larga para mujer en tono unicolor cuenta con cuello camisero, diseños de cuadros, doble bolsillo en el pecho, cierre delantero con botones y una silueta ligeramente holgada al cuerpo.",
+    "precio": 50000
+  },
+  {
+    "id": 36,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/manga_larga/ml3.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/manga_larga/ml4.webp",
+    "nombre": "Blusa en satín unicolor con manga larga y cuello camisero",
+    "categoria": "blusas",
+    "descripcion": "Blusa manga larga unicolor para mujer, confeccionada en tela de satín, cuenta con cierre delantero con botones, cuello camisero, cintura entallada y un fit ligeramente ajustado al cuerpo.",
+    "precio": 70000
+  },
+  {
+    "id": 37,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/oversize/over1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/oversize/over2.webp",
+    "nombre": "Blusa negra oversize con cuello camisero y manga 3/4 amplia",
+    "categoria": "blusas",
+    "descripcion": "Blusa con cuello camisero negra para mujer, elaborada en tela de algodón, cuenta con manga 3/4 amplia, prense posterior, cierre delantero con botones y una silueta oversize.",
+    "precio": 60000
+  },
+  {
+    "id": 38,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/sin_manga/sinm1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/sin_manga/sinm2.webp",
+    "nombre": "Blusa manga sisa unicolor con detalles bordados",
+    "categoria": "blusas",
+    "descripcion": "Blusa unicolor manga sisa para mujer cuenta con espalda encauchada, tiras delgadas, escote cuadrado, detalles bordados localizados y un fit que se ajustará al cuerpo en la medida precisa.",
+    "precio": 70000
+  },
+  {
+    "id": 39,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/satin/sa1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/MUJER/blusas/satin/sa2.webp",
+    "nombre": "Blusa crop top unicolor con manga larga y botones",
+    "categoria": "blusas",
+    "descripcion": "Blusa unicolor de silueta crop top para mujer cuenta con cuello camisero, cierre delantero con botones, manga larga y un fit que se ajustará al cuerpo en la medida precisa.",
+    "precio": 60000
+  }
 ]

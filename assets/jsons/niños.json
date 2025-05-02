@@ -1,322 +1,184 @@
 [
-        {
-            "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/jogger/jgn.webp",
-            "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/jogger/jgn2.webp",
-            "nombre": "Jogger regular fit tiro medio naranja",
-            "categoria": "Jeans",
-            "descripcion": "Pantalón tipo Jogger con bota ancha. Elástico en contorno cintura cordón funcional en contorno cintura bolsillos tipo ribete en costado. Tejido de punto. Para niña.",
-            "precio": 80000
-        },
-        {
-            "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/regular/regu1.webp",
-            "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/regular/regu2.webp",
-            "nombre": "Jean regular fit tiro alto indigo oscuro",
-            "categoria": "Jeans",
-            "descripcion": "Jean tiro alto. Silueta straight. 5 Bolsillos detalles de cortes en pierna elástico ajustable en la parte interna de la cintura y cierre de cremallera con botón",
-            "precio": 99900
-        },
-        {
-            "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/slim/slim1n.webp",
-            "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/slim/slim2n.webp",
-            "nombre": "Jean Lijoy slim fit tiro medio indigo claro",
-            "categoria": "Jeans",
-            "descripcion": "Pantalón. Silueta Skinny (Ajustado) tiro medio 5 bolsillos elástico ajustable en la pretina interna y cierre de cremallera con botón. Para niña. Tejido plano (índigo) algodón con elastano.",
-            "precio": 102000
-        },
-        {
-            "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/jean_mom/jm1.webp",
-            "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/jean_mom/jm2.webp",
-            "nombre": "Jean Lufas mom fit fit tiro medio indigo",
-            "categoria": "Jeans",
-            "descripcion": "Jean. Pierna amplia bota amplia con 2 bolsillos traseros elástico ajustable en la parte interna de la cintura y cierre de cremallera con botón. Para niña. Tejido plano (índigo).",
-            "precio": 99000
-        },
-        {
-            "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/regular2/regula1.webp",
-            "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/regular2/regula2.webp",
-            "nombre": "Jean regular fit tiro alto indigo medio",
-            "categoria": "Jeans",
-            "descripcion": "Jean tiro alto. Silueta straight. 5 Bolsillos detalles de cortes en pierna elástico ajustable en la parte interna de la cintura y cierre de cremallera con botón. Para niña. Tejido plano (Denim).",
-            "precio": 129000
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISETAS/IMG_3193.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISETAS/IMG_3194.jpg?raw=true",
-            "nombre": "Camiseta slim fit manga corta azul rayas",
-            "categoria": "Camisetas",
-            "descripcion": "Camiseta. Silueta ajustada con cuello redondo manga corta y con ruche (efecto ondulado) en el borde de las mangas y ruedo. Para niña. Tejido de punto. Algodón sostenible.",
-            "precio": 44990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISETAS/IMG_3197.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISETAS/IMG_3198.jpg?raw=true",
-            "nombre": "Camiseta Lopuz slim fit blanca",
-            "categoria": "Camisetas",
-            "descripcion": "Camiseta. Cuello redondo silueta con manga sisa detalle cut out en hombro izquierdo prenda puesta. Para niña. Tejido de punto. Algodón sostenible",
-            "precio": 39990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISETAS/IMG_3205.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISETAS/IMG_3206.jpg?raw=true",
-            "nombre": "Camiseta Cropped Fit Manga Corta Habana",
-            "categoria": "Camisetas",
-            "descripcion": "Camiseta. Con cuello redondo y manga corta. Para niña. Tejido de punto. Algodón sostenible",
-            "precio": 19990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISETAS/IMG_3207.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISETAS/IMG_3208.jpg?raw=true",
-            "nombre": "Camiseta Lendy Regular Fit Manga Corta Rosada Rayas",
-            "categoria": "Camisetas",
-            "descripcion": "Camiseta. Cuello redondo y manga corta. Para niña. Tejido de punto",
-            "precio": 29990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISETAS/IMG_3211.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISETAS/IMG_3212.jpg?raw=true",
-            "nombre": "Camiseta Laelle Regular Fit Manga Corta Blanca",
-            "categoria": "Camisetas",
-            "descripcion": "Camiseta con aplique decorativo en frente (piedras). Cuello redondo y manga corta. Para niña. Tejido de punto. Algodón sostenible",
-            "precio": 49990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/PANTALONES/IMG_3241.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/PANTALONES/IMG_3242.jpg?raw=true",
-            "nombre": "Pantalón Luxij fit tiro medio verde",
-            "categoria": "Pantalones",
-            "descripcion": "Pantalón cargo. Cortes centrales con pespuntes decorativos en pierna frente y posterior. Bolsillo cargo en costados. Tiro medio. Elástico en pretina y cierre de cremallera con botón de pasta. Para niña. Tejido plano",
-            "precio": 119000
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/PANTALONES/IMG_3243.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/PANTALONES/IMG_3244.jpg?raw=true",
-            "nombre": "Pantalón loose fit tiro medio en drill crema",
-            "categoria": "Pantalones",
-            "descripcion": "Pantalón Cargo. Bolsillos parche en posterior y costados tiro medio elástico ajustable en la parte interna de la cintura y cierre de cremallera con botón. Para niña. Tejido plano (drill)",
-            "precio": 120990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/PANTALONES/IMG_3247.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/PANTALONES/IMG_3248.jpg?raw=true",
-            "nombre": "Pantalón Wide Leg Para Niña Con Cintura Elástica",
-            "categoria": "Pantalones",
-            "descripcion": "Pantalón en tejido plano silueta wide leg. Cintura elástica. Cordón ajustable. Color beige",
-            "precio": 139990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/PANTALONES/IMG_3249.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/PANTALONES/IMG_3250.jpg?raw=true",
-            "nombre": "Pantalón Wide Leg Para Niña Con Prensas",
-            "categoria": "Pantalones",
-            "descripcion": "Pantalón en tejido plano silueta wide leg. Elástico ajustable interno. Color beige",
-            "precio": 135990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/PANTALONES/IMG_3259.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/PANTALONES/IMG_3260.jpg?raw=true",
-            "nombre": "Pantalón Parachute Para Niña con Bolsillos de Parche",
-            "categoria": "Pantalones",
-            "descripcion": "Pantalón en tejido plano silueta parachute. Cintura elástica. Cordón ajustable. Color gris",
-            "precio": 135990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISAS/IMG_3219.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISAS/IMG_3220.jpg?raw=true",
-            "nombre": "Camisa relaxed fit tiras blanca",
-            "categoria": "Camisas",
-            "descripcion": "Top tiras. Cintura con 3 vueltas de hilo elástico. Escote frente y espalda con elástico para mayor sostenimiento cargaderas con reguladores. Prenda confeccionada en tejido de algodón con textura. Para niña. Tejido plano.",
-            "precio": 60000
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISAS/IMG_3229.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISAS/IMG_3230.jpg?raw=true",
-            "nombre": "Camisa Loose Fit Manga Larga Crema",
-            "categoria": "Camisas",
-            "descripcion": "Camisa manga larga. Silueta oversized. Perilla y puño con botones. Bolsillo en frente. Costuras con destalles al corte. Para niña. Tejido plano",
-            "precio": 69990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISAS/IMG_3233.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISAS/IMG_3234.jpg?raw=true",
-            "nombre": "Camisa Loose Fit Manga Larga Verde",
-            "categoria": "Camisas",
-            "descripcion": "Camisa manga larga. Silueta oversized. Perilla y puño con botones. Costuras con destalles al corte. Para niña. Tejido plano",
-            "precio": 69990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISAS/IMG_3235.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISAS/IMG_3236.jpg?raw=true",
-            "nombre": "Camisa Oversized Fit Manga Larga Azul con Rayas",
-            "categoria": "Camisas",
-            "descripcion": "Camisa manga larga. Silueta amplia. Perilla y puño con botones. Tejido plano",
-            "precio": 69990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISAS/IMG_3237.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91AS/CAMISAS/IMG_3238.jpg?raw=true",
-            "nombre": "Body Manga Sisa Para Niña Silueta Ajustada",
-            "categoria": "Camisas",
-            "descripcion": "Body manga sisa en tejido de punto silueta ajustada. Cargadoras y broches ajustables. Forro interno. Color beige",
-            "precio": 79990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/JEANS/IMG_3315.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/JEANS/IMG_3316.jpg?raw=true",
-            "nombre": "Denim Silueta Slim Para Niño con Bolsillos",
-            "categoria": "Jeans",
-            "descripcion": "Denim en tejido plano silueta slim. Prenda con proceso sostenible. Elástico ajustable interno. Color azul.",
-            "precio": 139990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/JEANS/IMG_3317.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/JEANS/IMG_3318.jpg?raw=true",
-            "nombre": "Demin Sulueta Slim Para Niño",
-            "categoria": "Jeans",
-            "descripcion": "Denim en tejido plano silueta slim. Prenda con proceso sostenible. Elástico ajustable interno.",
-            "precio": 139990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/JEANS/IMG_3319.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/JEANS/IMG_3320.jpg?raw=true",
-            "nombre": "Pantalón tipo Jogger para Niño con Bolsillos Cargo",
-            "categoria": "Jeans",
-            "descripcion": "Pantalón en tejido plano silueta jogger. Cordón ajustable. Bolsillo cargo. Prenda con proceso sostenible. Color verde.",
-            "precio": 139990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/JEANS/IMG_3325.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/JEANS/IMG_3326.jpg?raw=true",
-            "nombre": "Jogger para Niño con Bolsillos Cargo",
-            "categoria": "Jeans",
-            "descripcion": "Pantalón en tejido plano silueta tipo jogger. Prenda con proceso sostenible. Cintura con elástico. Cordón ajustable. Bolsillos cargo. Botas ajustadas. Color gris.",
-            "precio": 145990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/JEANS/IMG_3327.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/JEANS/IMG_3328.jpg?raw=true",
-            "nombre": "Jean Slim para Niño con Bolsillos",
-            "categoria": "Jeans",
-            "descripcion": "Demin en tejido plano silueta slim. Elástico ajustable interno. Prenda con proceso sostenible. Color azul.",
-            "precio": 139990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/PANTALONES/IMG_3345.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/PANTALONES/IMG_3346.jpg?raw=true", 
-            "nombre": "Pantalón Lugot Regular Fit Tiro Medio en Drill Verde",
-            "categoria": "Pantalones",
-            "descripcion": "Pantalón tipo cargo bolsillos diagonales en frente y posterior, cargo laterales, elástico en pretina, cierre de cremallera con botón. Tejido plano.",
-            "precio": 89990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/PANTALONES/IMG_3347.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/PANTALONES/IMG_3348.jpg?raw=true",
-            "nombre": "Pantalón Lugot Regular Fit Tiro Medio en Drill Habano",
-            "categoria": "Pantalones",
-            "descripcion": "Pantalón tipo cargo con bolsillos diagonales, elástico con pretina, cierre y botón. Tejido plano.",
-            "precio": 89990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/PANTALONES/IMG_3349.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/PANTALONES/IMG_3350.jpg?raw=true",
-            "nombre": "Pantalón Regular Fit Tiro Medio Negro",
-            "categoria": "Pantalones",
-            "descripcion": "Pantalón/bermuda con cintura con elástico y cordón. Tejido plano.",
-            "precio": 149990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/PANTALONES/IMG_3355.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/PANTALONES/IMG_3356.jpg?raw=true",
-            "nombre": "Pantalón Regular Fit Tiro Medio En Drill Negro",
-            "categoria": "Pantalones",
-            "descripcion": "Pantalón con silueta regular, 4 bolsillos, elásticos ajustables en la cintura, cierre de cremallera y botón. Tejido plano.",
-            "precio": 79990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/PANTALONES/IMG_3357.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/PANTALONES/IMG_3358.jpg?raw=true",
-            "nombre": "Pantalón Tipo Jogger para Niño con Bolsillo Cargo",
-            "categoria": "Pantalones",
-            "descripcion": "Pantalón en tejido silueta jogger. Cordón ajustable. Bolsillos cargo. Color negro.",
-            "precio": 139990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISAS/IMG_3285.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISAS/IMG_3286.jpg?raw=true",
-            "nombre": "Camisa Regular Fit Manga Larga Azul con Rayas",
-            "categoria": "Camisas",
-            "descripcion": "Camisa manga larga con botón ajustable en el puño. Tejido plano.",
-            "precio": 69990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISAS/IMG_3287.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISAS/IMG_3288.jpg?raw=true",
-            "nombre": "Camisa Larob Regular Fit Manga Larga Índigo Medio",
-            "categoria": "Camisas",
-            "descripcion": "Camisa manga larga con botón ajustable en el puño. Tejido plano.",
-            "precio": 69990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISAS/IMG_3289.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISAS/IMG_3290.jpg?raw=true",
-            "nombre": "Camisa Larob Regular Fit Manga Larga Azul con Cuadros",
-            "categoria": "Camisas",
-            "descripcion": "Camisa manga larga con botón ajustable en el puño. Tejido plano.",
-            "precio": 129990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISAS/IMG_3293.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISAS/IMG_3294.jpg?raw=true",
-            "nombre": "Camisa Regular Fit Manga Corta Crema",
-            "categoria": "Camisas",
-            "descripcion": "Camisa regular fit, manga corta con botón y bolsillo en frente. Tejido plano.",
-            "precio": 99990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISAS/IMG_3311.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISAS/IMG_3312.jpg?raw=true",
-            "nombre": "Camisa Blanca Manga Larga Para Niño Silueta Clásica",
-            "categoria": "Camisas",
-            "descripcion": "Camisa manga larga en tejido plano, silueta clásica, manga roll up, color blanco.",
-            "precio": 115990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISETAS/IMG_3271.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISETAS/IMG_3272.jpg?raw=true",
-            "nombre": "Camiseta Para niño Manga Corta con Bloques de Color",
-            "categoria": "Camisetas",
-            "descripcion": "Camiseta manga corta en tejido de punto silueta clásica de bloques, color beige.",
-            "precio": 59990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISETAS/IMG_3273.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISETAS/IMG_3274.jpg?raw=true",
-            "nombre": "Camiseta para Niño Manga Corta con Gráfico en el frente",
-            "categoria": "Camisetas",
-            "descripcion": "Camiseta manga corta en tejido de punto silueta clásica, color verde.",
-            "precio": 59990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISETAS/IMG_3275.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISETAS/IMG_3276.jpg?raw=true",
-            "nombre": "Camiseta para niño Manga Corta",
-            "categoria": "Camisetas",
-            "descripcion": "Camiseta manga corta en tejido de punto silueta clásica, color negro, con textura.",
-            "precio": 59990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISETAS/IMG_3277.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISETAS/IMG_3278.jpg?raw=true",
-            "nombre": "Camiseta Polo para Niño Manga Corta",
-            "categoria": "Camisetas",
-            "descripcion": "Camiseta manga corta en tejido de punto silueta clásica tipo polo, con detalle bordado, cuello y mangas en rib, color rojo.",
-            "precio": 85990
-        },
-        {
-            "foto1": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISETAS/IMG_3281.jpg?raw=true",
-            "foto2": "https://github.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/blob/main/assets/img/Productos/NI%C3%91OS/CAMISETAS/IMG_3282.jpg?raw=true",
-            "nombre": "Camiseta Polo para Niño Manga Corta",
-            "categoria": "Camisetas",
-            "descripcion": "Camiseta manga corta en tejido de punto silueta clásica tipo polo, con detalle bordado, cuello y mangas en rib, color azul, 100% algodón.",
-            "precio": 85990
-        }
+  {
+    "id": 40,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/jogger/jgn.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/jogger/jgn2.webp",
+    "nombre": "Jogger regular fit tiro medio naranja",
+    "categoria": "Jeans",
+    "descripcion": "Pantalón tipo Jogger con bota ancha. Elástico en contorno cintura cordón funcional en contorno cintura bolsillos tipo ribete en costado. Tejido de punto. Para niña.",
+    "precio": 80000
+  },
+  {
+    "id": 41,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/regular/regu1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/regular/regu2.webp",
+    "nombre": "Jean regular fit tiro alto indigo oscuro",
+    "categoria": "Jeans",
+    "descripcion": "Jean tiro alto. Silueta straight. 5 Bolsillos detalles de cortes en pierna elástico ajustable en la parte interna de la cintura y cierre de cremallera con botón",
+    "precio": 99900
+  },
+  {
+    "id": 42,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/slim/slim1n.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/slim/slim2n.webp",
+    "nombre": "Jean Lijoy slim fit tiro medio indigo claro",
+    "categoria": "Jeans",
+    "descripcion": "Pantalón. Silueta Skinny (Ajustado) tiro medio 5 bolsillos elástico ajustable en la pretina interna y cierre de cremallera con botón. Para niña. Tejido plano (índigo) algodón con elastano.",
+    "precio": 102000
+  },
+  {
+    "id": 43,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/jean_mom/jm1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/jean_mom/jm2.webp",
+    "nombre": "Jean Lufas mom fit fit tiro medio indigo",
+    "categoria": "Jeans",
+    "descripcion": "Jean. Pierna amplia bota amplia con 2 bolsillos traseros elástico ajustable en la parte interna de la cintura y cierre de cremallera con botón. Para niña. Tejido plano (índigo).",
+    "precio": 99000
+  },
+  {
+    "id": 44,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/regular2/regula1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/JEANS/regular2/regula2.webp",
+    "nombre": "Jean regular fit tiro alto indigo medio",
+    "categoria": "Jeans",
+    "descripcion": "Jean tiro alto. Silueta straight. 5 Bolsillos detalles de cortes en pierna elástico ajustable en la parte interna de la cintura y cierre de cremallera con botón. Para niña. Tejido plano (Denim).",
+    "precio": 129000
+  },
+  {
+    "id": 45,
+    "foto1": "",
+    "foto2": "",
+    "nombre": "Camiseta slim fit manga corta azul rayas",
+    "categoria": "Camisetas",
+    "descripcion": "Camiseta. Silueta ajustada con cuello redondo manga corta y con ruche (efecto ondulado) en el borde de las mangas y ruedo. Para niña. Tejido de punto. Algodón sostenible.",
+    "precio": 44990
+  },
+  {
+    "id": 46,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/camisetas/lopuz/lopuz1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/camisetas/lopuz/lopuz2.webp",
+    "nombre": "Camiseta Lopuz slim fit blanca",
+    "categoria": "Camisetas",
+    "descripcion": "Camiseta. Cuello redondo silueta con manga sisa detalle cut out en hombro izquierdo prenda puesta. Para niña. Tejido de punto. Algodón sostenible",
+    "precio": 39990
+  },
+  {
+    "id": 47,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/camisetas/manga_corta/manc1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/camisetas/manga_corta/manc2.webp",
+    "nombre": "Camiseta Cropped Fit Manga Corta Habana",
+    "categoria": "Camisetas",
+    "descripcion": "Camiseta. Con cuello redondo y manga corta. Para niña. Tejido de punto. Algodón sostenible",
+    "precio": 19990
+  },
+  {
+    "id": 48,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/camisetas/lendy/lendy1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/camisetas/lendy/lendy2.webp",
+    "nombre": "Camiseta Lendy Regular Fit Manga Corta Rosada Rayas",
+    "categoria": "Camisetas",
+    "descripcion": "Camiseta. Cuello redondo y manga corta. Para niña. Tejido de punto",
+    "precio": 29990
+  },
+  {
+    "id": 49,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/camisetas/regular/reg1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/camisetas/regular/reg2.webp",
+    "nombre": "Camiseta Laelle Regular Fit Manga Corta Blanca",
+    "categoria": "Camisetas",
+    "descripcion": "Camiseta con aplique decorativo en frente (piedras). Cuello redondo y manga corta. Para niña. Tejido de punto. Algodón sostenible",
+    "precio": 49990
+  },
+  {
+    "id": 50,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/PANTALON/luxij/luxij.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/PANTALON/luxij/luxij2.webp",
+    "nombre": "Pantalón Luxij fit tiro medio verde",
+    "categoria": "Pantalones",
+    "descripcion": "Pantalón cargo. Cortes centrales con pespuntes decorativos en pierna frente y posterior. Bolsillo cargo en costados. Tiro medio. Elástico en pretina y cierre de cremallera con botón. Para niña. Tejido plano",
+    "precio": 119000
+  },
+  {
+    "id": 51,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/PANTALON/loose/loo1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/PANTALON/loose/loo2.webp",
+    "nombre": "Pantalón loose fit tiro medio en drill crema",
+    "categoria": "Pantalones",
+    "descripcion": "Pantalón Cargo. Bolsillos parche en posterior y costados tiro medio elástico ajustable en la parte interna de la cintura y cierre de cremallera con botón. Para niña. Tejido plano (drill)",
+    "precio": 120990
+  },
+  {
+    "id": 52,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/PANTALON/wide/wi1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/PANTALON/wide/wi2.webp",
+    "nombre": "Pantalón Wide Leg Para Niña Con Cintura Elástica",
+    "categoria": "Pantalones",
+    "descripcion": "Pantalón en tejido plano silueta wide leg. Cintura elástica. Cordón ajustable. Color beige",
+    "precio": 139990
+  },
+  {
+    "id": 53,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/PANTALON/prenses/pr1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/PANTALON/prenses/pr2.webp",
+    "nombre": "Pantalón Wide Leg Para Niña Con Prensas",
+    "categoria": "Pantalones",
+    "descripcion": "Pantalón en tejido plano silueta wide leg. Elástico ajustable interno. Color beige",
+    "precio": 135990
+  },
+  {
+    "id": 54,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/PANTALON/parachute/pra1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/PANTALON/parachute/pra2.webp",
+    "nombre": "Pantalón Parachute Para Niña con Bolsillos de Parche",
+    "categoria": "Pantalones",
+    "descripcion": "Pantalón en tejido plano silueta parachute. Cintura elástica. Cordón ajustable. Color gris",
+    "precio": 135990
+  },
+  {
+    "id": 55,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/CAMISAS/relaxed/rela1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/CAMISAS/relaxed/rela2.webp",
+    "nombre": "Camisa relaxed fit tiras blanca",
+    "categoria": "Camisas",
+    "descripcion": "Top tiras. Cintura con 3 vueltas de hilo elástico. Escote frente y espalda con elástico para mayor sostenimiento cargaderas con reguladores. Prenda confeccionada en tejido de algodón con textura. Para niña. Tejido plano.",
+    "precio": 60000
+  },
+  {
+    "id": 56,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/CAMISAS/manga_larga/luse1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/CAMISAS/manga_larga/luse2.webp",
+    "nombre": "Camisa Loose Fit Manga Larga Crema",
+    "categoria": "Camisas",
+    "descripcion": "Camisa manga larga. Silueta oversized. Perilla y puño con botones. Bolsillo en frente. Costuras con destalles al corte. Para niña. Tejido plano",
+    "precio": 69990
+  },
+  {
+    "id": 57,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/CAMISAS/verde/ver1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/CAMISAS/verde/ver2.webp",
+    "nombre": "Camisa Loose Fit Manga Larga Verde",
+    "categoria": "Camisas",
+    "descripcion": "Camisa manga larga. Silueta oversized. Perilla y puño con botones. Costuras con destalles al corte. Para niña. Tejido plano",
+    "precio": 69990
+  },
+  {
+    "id": 58,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/CAMISAS/rayas/ray1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/CAMISAS/rayas/ray2.webp",
+    "nombre": "Camisa Oversized Fit Manga Larga Azul con Rayas",
+    "categoria": "Camisas",
+    "descripcion": "Camisa manga larga. Silueta amplia. Perilla y puño con botones. Tejido plano",
+    "precio": 69990
+  },
+  {
+    "id": 59,
+    "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/CAMISAS/tiritas/tiri1.webp",
+    "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/NI%C3%91AS/CAMISAS/tiritas/tiri2.webp",
+    "nombre": "Body Manga Sisa Para Niña Silueta Ajustada",
+    "categoria": "Camisas",
+    "descripcion": "Body manga sisa en tejido de punto silueta ajustada. Cargadoras y broches ajustables. Forro interno. Color beige",
+    "precio": 79990
+  }
 ]
+
+
