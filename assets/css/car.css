@@ -345,6 +345,24 @@ main{
     padding: 0 10%;
 }
 
+.modal-comfirm{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.modal-comfirm p{
+    font-size: 2rem;
+    font-family: "Assistant", serif;
+    font-weight: 600;
+}
+
 /*CLASE QUE OCULTA EL CONTENEDOR*/
 .hiden{
     display: none;

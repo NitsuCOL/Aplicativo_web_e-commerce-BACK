@@ -5,6 +5,7 @@ const contenedorModal = document.getElementsByClassName('general-modal-container
 const btnPedidoRealizado = document.getElementById('btnPedidoRealizado');//BOTON DEL MODAL
 const contenedorCarritoVacio = document.getElementsByClassName('carVoid-container')[0];//CONTENEDOR DEL CARRITO VACIO
 const contenedorCarrito = document.getElementsByClassName('car-container')[0];//CONTENEDOR DEL CARRITO CUANDO TIENE PORDUCTOS
+const modalConfirmarPago = document.getElementById('comfirm');//CONTENEDOR DEL MODAL QUE CONFIRMA EL PAGO
 
 //ESTO PERMITE QUE SE SELECCIONE EL METODO DE PAGO EN EL MODAL
 span1.addEventListener('click', () => {
@@ -30,8 +31,12 @@ btnPedidoRealizado.addEventListener('click', () => {
     if (span1.classList.contains('active') || span2.classList.contains('active')) {
         contenedorModal.classList.add('hiden');
         document.body.classList.remove('no-scroll');
-        contenedorCarrito.classList.add('hiden');
-        contenedorCarritoVacio.classList.remove('hiden');
+        modalConfirmarPago.classList.remove('hiden');
+        setTimeout(() => {            
+            modalConfirmarPago.classList.add('hiden');
+            contenedorCarrito.classList.add('hiden');
+            contenedorCarritoVacio.classList.remove('hiden');
+        }, 1000);
     } else {
         alert('Por favor selecciona un método de pago antes de continuar.');
     }
