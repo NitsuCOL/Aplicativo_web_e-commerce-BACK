@@ -4,7 +4,8 @@
       "foto2": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/HOMBRE/JEANS/straight/straight_2.webp",
       "nombre": "Straight para hombres",
       "categoria": "jean",
-      "descripcion": "**Ajuste y tamaño**\nPierna recta Corte a la  cintura **Composición y cuidado**\n79% Algodón, 19% Poliester, 2% Elastano.\nEn su diseño cuentan con el ajuste clásico de pierna recta, se amolda a la cintura y son amplios en la parte trasera y muslos.\nSon la opción perfecta para aquellos de complexión atlética que buscan una prenda acorde a sus necesidades."
+      "descripcion": "**Ajuste y tamaño**\nPierna recta Corte a la  cintura **Composición y cuidado**\n79% Algodón, 19% Poliester, 2% Elastano.\nEn su diseño cuentan con el ajuste clásico de pierna recta, se amolda a la cintura y son amplios en la parte trasera y muslos.\nSon la opción perfecta para aquellos de complexión atlética que buscan una prenda acorde a sus necesidades.",
+      "precio": 149900
     },
     {
       "foto1": "https://raw.githubusercontent.com/NitsuCOL/Aplicativo_web_e-commerce-BACK/refs/heads/main/assets/img/Productos/HOMBRE/JEANS/Taper_fit/taper_fit1.webp",
