@@ -187,6 +187,7 @@ const Menos=(id,boton)=>{
     if(cantidad.textContent==0){
         Eliminar(id,boton)
     }
+    Calcular()
 }
 
 //FUNCION DE ELIMINAR EL PRODUCTO DEL CARRITO
