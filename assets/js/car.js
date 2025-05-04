@@ -192,6 +192,8 @@ const Menos=(id,boton)=>{
 
 //FUNCION DE ELIMINAR EL PRODUCTO DEL CARRITO
 const Eliminar=(id,boton)=>{
+    
+
     Carrito=localStorage.getItem("Carrito")
     Carrito=Carrito.split(",")
     if(Carrito.length==1){
@@ -213,6 +215,11 @@ const Eliminar=(id,boton)=>{
 }
 
 
+//Preguntar si eliminar un producto
+const Confirmar=()=>{
+    Delete=document.getElementById("delete")
+    Delete.classList.remove("hiden")
+}
 
 
 
