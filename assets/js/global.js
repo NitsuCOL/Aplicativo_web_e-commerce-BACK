@@ -1,3 +1,4 @@
+const arr=["car.html","category.html","loginAndRegister.html","product.html"]
 
 //Funcion para determinar que informacion cargar en la pagina de categoria
 const elegirCategoria=(CAT)=>{
@@ -8,10 +9,12 @@ const elegirCategoria=(CAT)=>{
     }else if(CAT==2){
         localStorage.setItem("Categoria","2")
     }
-    if(window.location.href.includes("index.html")){
-        window.location.href="views/category.html"
-    }else{
+    verify=arr.some(local=>window.location.href.includes(local))
+    if(verify){
         window.location.href="category.html"
+    }else{
+        window.location.href="views/category.html"
     }
 
 }
+

@@ -62,60 +62,27 @@ const Botones=(id)=>{
     Carrito=localStorage.getItem("Carrito")
     console.log(Carrito)
     if(Carrito!=null){
-        Carrito=JsonArray(JSON.parse(Carrito))
-        Carrito.push([['id:',id],['cant',1]])
-        Carrito=ArrayJson(Carrito)
+        Carrito=Carrito.split(",").map(car=>Carrito=parseInt(car))
+        if(Carrito.includes(id)){
+            alert("El producto ya se encuentra en tu carrito")
+        }else{
+        Carrito.push(id)
         localStorage.setItem("Carrito",Carrito)
-    }else if(Carrito==null){
-        info={
-            id:id,
-            cant:1
-        }
-        Carrito=localStorage.setItem("Carrito",JSON.stringify(info))
+        contenedorModal.classList.remove('hide');
+        setTimeout(() => {
+            contenedorModal.classList.add('hide');
+        }, 1000);
     }
-    contenedorModal.classList.remove('hide');
-
-
-    setTimeout(() => {
-        contenedorModal.classList.add('hide');
-    }, 1000);
+    }else if(Carrito==null){
+        Carrito=localStorage.setItem("Carrito",id)
+        contenedorModal.classList.remove('hide');
+        setTimeout(() => {
+            contenedorModal.classList.add('hide');
+        }, 1000);
+    }
+    
 // });
 }
 
-const JsonArray=(Carrito)=>{
-    var result = [];
-    dato=[]
-    j=0
-    for(var i in Carrito){
-        dato.push([i,Carrito[i]])
-        if(j==1){
-            result.push(dato)
-            dato=[]
-            j=0
-        }
-        j++
-    }    
-    return result
-}
 
-const ArrayJson=(Carrito)=>{
-    console.log(Carrito)
-    j=0
-    var result = "[";
-    for(var i in Carrito){
-        if(j==1){
-            result+=","
-            j=0
-        }
-        Iter=Carrito[i]
-        result+=`{
-            "id":${Iter[0][1]},
-            "cant":${Iter[1][1]}
-        }`;
-        j++
-    }
-    result+="]"
-    
-    return result
-}
 
