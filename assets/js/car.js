@@ -191,35 +191,52 @@ const Menos=(id,boton)=>{
 }
 
 //FUNCION DE ELIMINAR EL PRODUCTO DEL CARRITO
+//MODAL ELIMINAR
+const Delete=document.getElementById("delete")
+
 const Eliminar=(id,boton)=>{
     
+    Delete.classList.remove("hiden")
+    ConfirmEliminar=document.getElementById("ConfirmEliminar")
+    CancelEliminar=document.getElementById("CancelEliminar")
 
-    Carrito=localStorage.getItem("Carrito")
-    Carrito=Carrito.split(",")
-    if(Carrito.length==1){
-        localStorage.removeItem("Carrito")
-        CargaCarrito()
+    ConfirmEliminar.addEventListener('click',function(){
+        boton.disabled = true;
+        
+        Carrito=localStorage.getItem("Carrito")
+        Carrito=Carrito.split(",")
+        if(Carrito.length==1){
+            localStorage.removeItem("Carrito")
+            CargaCarrito()
+        }else{
+            localStorage.setItem("Carrito",Carrito.filter(n=> n!=id))
+            Calcular()
 
-    }else{
-        localStorage.setItem("Carrito",Carrito.filter(n=> n!=id))
-        Calcular()
-
-    }
-    const cardCar = boton.closest('.card-car');
-
+        }
+        const cardCar = boton.closest('.card-car')
         if (cardCar) {
             cardCar.remove(); // Elimina el producto
 
         }
+        setTimeout(() => {
+            boton.disabled = false;
+          }, 1000);
+        Delete.classList.add("hiden")
+    })
+    CancelEliminar.addEventListener('click',function(){
+        Delete.classList.add("hiden")
+        // console.log(boton)
+        padre=boton.parentNode
+        if(padre.classList.contains("selector-products")){
+            cantidad=padre.querySelector('span')
+            cantidad.textContent=parseInt(cantidad.textContent)+1
+        }
+
+    })
+    
 
 }
 
-
-//Preguntar si eliminar un producto
-const Confirmar=()=>{
-    Delete=document.getElementById("delete")
-    Delete.classList.remove("hiden")
-}
 
 
 
