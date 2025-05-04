@@ -146,7 +146,7 @@ main{
     z-index: 999;
     top: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 100vh;
     font-family: "Assistant", serif;
@@ -361,6 +361,48 @@ main{
     font-size: 2rem;
     font-family: "Assistant", serif;
     font-weight: 600;
+}
+
+.delete-modal{
+    background-color: #FFF;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5% 5%;
+    text-align: center;
+}
+
+.delete-modal p{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.btn-delete-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.btn-delete-container button{
+    padding: 4% 20%;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.w-btn{
+    background-color: #fff;
+    border: 1px solid #CCCED6;
+}
+
+.n-btn{
+    background-color: #0C121E;
+    color: #FFF;
+    border: 1px solid #0C121E;
 }
 
 /*CLASE QUE OCULTA EL CONTENEDOR*/
