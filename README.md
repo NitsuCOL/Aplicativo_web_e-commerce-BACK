@@ -50,7 +50,7 @@ Una vez abierto el sitio en el navegador, podrás:
 
 ## 🧑‍💻 Contribuciones
 
-Este proyecto fue desarrollado por el equipo de **Stiven Chico, Cristian Orellano, Miriam Vasquez y Aaron Wilches** como parte del **Bootcamp de Programación Básica** de **Talento Tech Caribe**.
+Este proyecto fue desarrollado por el equipo de **Stiven Chico, Cristian Orellano, Marian Vasquez y Aaron Wilches** como parte del **Bootcamp de Programación Básica** de **Talento Tech Caribe**.
 
 Las contribuciones se enfocaron en la creación de la interfaz de usuario, funcionalidades del carrito de compras, autenticación de usuarios y diseño responsivo. 
 
