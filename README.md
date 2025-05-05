@@ -63,6 +63,6 @@ Este proyecto está bajo la licencia MIT. Revisa el archivo LICENSE para más de
 - Aaron Wilches: [GitHub](https://github.com/NitsuCOL)
 - Stiven Chico: [GitHub](https://github.com/Cristian07-04)
 - Cristian Orellano: [GitHub](https://github.com/Cristian07-04)
-- Miriam Vasquez: [GitHub](https://github.com/mcvasquezsar)
+- Marian Vasquez: [GitHub](https://github.com/mcvasquezsar)
 
 🧑‍🎓 **Nota:** La marca BACK es completamente inventada y forma parte del concepto académico del proyecto.
