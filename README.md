@@ -11,7 +11,6 @@ El proyecto ha sido creado por un equipo de cuatro estudiantes como parte del **
 - Páginas de detalles individuales para cada producto
 - Carrito de compras interactivo
 - Sistema de autenticación de usuarios
-- Diseño responsivo para diferentes dispositivos
 
 ## 🧰 Tecnologías utilizadas
 
